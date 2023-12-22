@@ -1,0 +1,1107 @@
+{
+	autofocus_id: "4B2132160761EE35"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vanilla"
+	group: ""
+	id: "0998B3043D71B0FE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4B2132160761EE35"
+			rewards: [{
+				id: "129E30126CA70A29"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FD6D770FD04E86F"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			title: "Getting Wood"
+			x: 3.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["4B2132160761EE35"]
+			hide_dependency_lines: false
+			id: "6A40256386C8A67F"
+			rewards: [
+				{
+					id: "785E5D77A60166F5"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "655C751DF833ADD3"
+					table_id: 6404986403409355254L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "5F43344CBFE84721"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "Crafting?"
+			x: 3.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4C6C41C8BBCA614B"]
+			dependency_requirement: "one_completed"
+			id: "0E6121A6FFE69477"
+			rewards: [{
+				id: "5303EA8A88591132"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B409BF5CBB2B671"
+				item: {
+					Count: 1b
+					id: "minecraft:wooden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Introduction to Woodcutting"
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4C6C41C8BBCA614B"]
+			id: "09ECBC61F446B04A"
+			rewards: [{
+				id: "68FE9FAC36FE37F0"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63868DDAB23F4418"
+				item: {
+					Count: 1b
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Introduction to Mining"
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4C6C41C8BBCA614B"]
+			id: "33B58CFE3CE36CF5"
+			rewards: [{
+				id: "76C3E05BC7E7AA29"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FF6980F1C31363B"
+				item: {
+					Count: 1b
+					id: "minecraft:wooden_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Introduction to Digging"
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4C6C41C8BBCA614B"]
+			id: "7FD0522548C7733C"
+			rewards: [{
+				id: "2BA58586182C57B5"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A4F3CBA9287269C"
+				item: {
+					Count: 1b
+					id: "minecraft:wooden_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Introduction to Farming"
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0E6121A6FFE69477"]
+			dependency_requirement: "one_completed"
+			id: "11A2C237706944F7"
+			rewards: [{
+				id: "6664D127EED9794E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5EDFCA2EA1015413"
+				item: {
+					Count: 1b
+					id: "minecraft:stone_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["11A2C237706944F7"]
+			id: "518240B584A03EED"
+			rewards: [{
+				id: "507AA53CB81A2EC1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2EA7B52231E0FF7E"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["518240B584A03EED"]
+			id: "426401DFC653AEE6"
+			rewards: [{
+				id: "2DF0CB29D88E4013"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "74ECC77D73D28DF4"
+				item: {
+					Count: 1b
+					id: "minecraft:golden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["426401DFC653AEE6"]
+			id: "6EC0DE114C526789"
+			rewards: [{
+				id: "38BCB6657351744D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7AA12F94F1744793"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6EC0DE114C526789"]
+			id: "2AEB61536B0C5BD8"
+			rewards: [{
+				id: "6F2F0253B92E0DD6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5AFDBCB371CF087F"
+				item: {
+					Count: 1b
+					id: "minecraft:netherite_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["09ECBC61F446B04A"]
+			id: "3B8B4F23CD9DD6CF"
+			rewards: [{
+				id: "0B88700B86053885"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4403BFBC76A6F233"
+				item: {
+					Count: 1b
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3B8B4F23CD9DD6CF"]
+			id: "521CA13C2D22663C"
+			rewards: [{
+				id: "23C8DA49FF31C422"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6193C12B1016F3A8"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["521CA13C2D22663C"]
+			id: "410DE8A06048451E"
+			rewards: [{
+				id: "391B373C590FE347"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "60712AA6D91F02B4"
+				item: {
+					Count: 1b
+					id: "minecraft:golden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["410DE8A06048451E"]
+			id: "16D799CBCF4F88DB"
+			rewards: [{
+				id: "6304B8EB3E76833B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1A9FB786BFDA26D0"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["16D799CBCF4F88DB"]
+			id: "10CBD8549C1F5B61"
+			rewards: [{
+				id: "3E44D9D388372692"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3AACD4CEAD5D9E15"
+				item: {
+					Count: 1b
+					id: "minecraft:netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["33B58CFE3CE36CF5"]
+			id: "478736292A95F11C"
+			rewards: [{
+				id: "314D3EE8A98847B0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2D0D7B985CBE87DC"
+				item: {
+					Count: 1b
+					id: "minecraft:stone_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["478736292A95F11C"]
+			id: "53D31CFC4818A09F"
+			rewards: [{
+				id: "69C6773DDD079A7A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "48850DBADA035E7C"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["53D31CFC4818A09F"]
+			id: "6C4A045892D2EE2E"
+			rewards: [{
+				id: "4DBB07076C9764D4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "16DDA9BBCBADF009"
+				item: {
+					Count: 1b
+					id: "minecraft:golden_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6C4A045892D2EE2E"]
+			id: "0754677EAF2426C6"
+			rewards: [{
+				id: "0D54A24F7692F1D2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4CA8ED20ED8DC823"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0754677EAF2426C6"]
+			id: "5B1526FDDD6AD0A1"
+			rewards: [{
+				id: "5CB5DB49E60B434A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "15296DA350304BD7"
+				item: {
+					Count: 1b
+					id: "minecraft:netherite_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["526083B363B8754A"]
+			id: "1E4E12CB0069AC62"
+			rewards: [{
+				id: "5A7DAD31BB9EF850"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "469561B06C6D90FD"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1E4E12CB0069AC62"]
+			id: "39992CBBF5D262D8"
+			rewards: [{
+				id: "75E8ACF0711E7185"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1EA66A4AF2E90FB4"
+				item: {
+					Count: 1b
+					id: "minecraft:golden_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7FD0522548C7733C"]
+			id: "526083B363B8754A"
+			rewards: [{
+				id: "64DC6568E01BB0C2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2046D8AAE9BB9C75"
+				item: {
+					Count: 1b
+					id: "minecraft:stone_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["39992CBBF5D262D8"]
+			id: "76CDA9BF58C98F76"
+			rewards: [{
+				id: "71368A39C8DDF4D6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "75179D6C7EE3EAF9"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76CDA9BF58C98F76"]
+			id: "301F83B1206E944F"
+			rewards: [{
+				id: "49529302689B7BB9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4BEE5A1623D432DC"
+				item: {
+					Count: 1b
+					id: "minecraft:netherite_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D3C8C44919D574A"]
+			id: "3005A2DCF562A1B1"
+			rewards: [{
+				count: 16
+				id: "022A636147DCD048"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "124631815EED3192"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3D3C8C44919D574A"]
+			id: "284EDF06CB62C998"
+			rewards: [{
+				id: "6AF3B3619C5A2A18"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "240A01C233644485"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3D3C8C44919D574A"]
+			id: "53BC64EAF57789AB"
+			rewards: [{
+				count: 8
+				id: "1ECE5EE69255B6A9"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1873D3225CB7F44C"
+				item: "minecraft:smoker"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["776F31EB2A8B38E9"]
+			hide_dependency_lines: false
+			id: "3D3C8C44919D574A"
+			tasks: [{
+				count: 8L
+				id: "4E5A54F07918D0BD"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6A40256386C8A67F"]
+			id: "761DA907C4972452"
+			tasks: [{
+				id: "79D901E4CA2BB4C9"
+				item: "minecraft:white_bed"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["22113F42C563A9B7"]
+			id: "758BF00D495A8118"
+			tasks: [{
+				id: "3C169BEDACE905C2"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["22113F42C563A9B7"]
+			id: "7E874C067F0CB0E1"
+			tasks: [{
+				id: "55C818210FEA170F"
+				item: "minecraft:cooked_porkchop"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["22113F42C563A9B7"]
+			id: "335580694CD406BA"
+			tasks: [{
+				id: "15527EE1E78F3A04"
+				item: "minecraft:cooked_chicken"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["22113F42C563A9B7"]
+			id: "347819B5859EC846"
+			tasks: [{
+				id: "25C391D2B4852B03"
+				item: "minecraft:cooked_rabbit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "7C6CBBD20A9A9C99"
+			tasks: [{
+				id: "7906D149796AE284"
+				title: "Time to Start Mining"
+				type: "checkmark"
+			}]
+			title: "Mining Away"
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7C6CBBD20A9A9C99"]
+			id: "6FAEAA94902204A9"
+			tasks: [{
+				id: "784A9FC39CCFDC01"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C6CBBD20A9A9C99"]
+			id: "6787B4FCCEF118FA"
+			tasks: [{
+				id: "7FE311FA8E3C535A"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C6CBBD20A9A9C99"]
+			id: "4B3F98E52CA25E7B"
+			tasks: [{
+				id: "3F1483B25DEE485D"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C6CBBD20A9A9C99"]
+			id: "0C1C29436FDE0B0F"
+			tasks: [{
+				id: "456D979433598754"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7C6CBBD20A9A9C99"]
+			id: "2F58DA528C72FE40"
+			tasks: [{
+				id: "068342539C757C98"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			id: "4C6C41C8BBCA614B"
+			tasks: [{
+				id: "1AB50067CECD277A"
+				title: "TOOLS!"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			id: "776F31EB2A8B38E9"
+			tasks: [{
+				id: "5D74D21686AB289D"
+				title: "Production"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			id: "22113F42C563A9B7"
+			tasks: [{
+				id: "0D6B82599B1A09F3"
+				title: "FOOD!"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6A40256386C8A67F"]
+			id: "17E3FD0114474F43"
+			tasks: [{
+				id: "24650FDF6300AC71"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			title: "Introduction to Storage Mediums"
+			x: 1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["62BEF8ED07AB7AF3"]
+			id: "6A1D6E078BD1A3E7"
+			rewards: [{
+				id: "7539B6969C40A054"
+				item: {
+					Count: 1b
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "1FB8FCC1109D3B61"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -7.0d
+		}
+		{
+			id: "62BEF8ED07AB7AF3"
+			subtitle: "NETHER!? I barely know her!"
+			tasks: [{
+				id: "02165B9F6F8AB763"
+				title: "NETHER!?"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6A1D6E078BD1A3E7"]
+			id: "09F8AAE4B14EF04B"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "006269952CE60730"
+				type: "dimension"
+			}]
+			x: 9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["09F8AAE4B14EF04B"]
+			id: "567EE57F9A13D74C"
+			rewards: [{
+				id: "1DD7DB985F20F953"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			tasks: [{
+				id: "610082B9C5D406C0"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["09F8AAE4B14EF04B"]
+			id: "606E3C138B97931B"
+			tasks: [{
+				id: "0BACAE679CBCCA63"
+				item: "minecraft:magma_cream"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			id: "05940264AB8C9B96"
+			tasks: [{
+				id: "2E36E9DA6912C0AE"
+				title: "THE END?!"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["204776741E508FF2"]
+			id: "6E987534547CEBAA"
+			tasks: [{
+				id: "17B5B0ABF64EFA59"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6E987534547CEBAA"]
+			id: "3EEF349824448AB7"
+			tasks: [{
+				id: "53604C3C1C5AC3F4"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["36A85CBFA65B5E17"]
+			id: "40D1554BDE79F268"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "22BB3F1DEACF28A6"
+				type: "dimension"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3EEF349824448AB7"]
+			id: "36A85CBFA65B5E17"
+			tasks: [{
+				id: "6D3A5E36E892B24A"
+				structure: "minecraft:stronghold"
+				type: "structure"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["09F8AAE4B14EF04B"]
+			id: "2B28DF2C12B472ED"
+			tasks: [{
+				id: "63BAF86ACE16247C"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["09F8AAE4B14EF04B"]
+			id: "07CB1C24DEFDF36F"
+			tasks: [{
+				id: "52EDE53F81A34046"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["05940264AB8C9B96"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "204776741E508FF2"
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "2EF2FD0A5DAA6E4C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["09158F235D14E642"]
+			id: "67D916FF91EFF26C"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "1848629EBF12105F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["67D916FF91EFF26C"]
+			id: "0ECB1F2EF500B60A"
+			tasks: [{
+				count: 3L
+				id: "7921FFB2550CAD86"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0ECB1F2EF500B60A"]
+			id: "3661F0030D967551"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "28C6D4F0BF9CE9D2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3661F0030D967551"]
+			id: "6D2071B23B318C52"
+			tasks: [{
+				id: "0CF869189C805057"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			id: "09158F235D14E642"
+			subtitle: "WITHER? I barely know her!"
+			tasks: [{
+				id: "3E9C48E49368E8E2"
+				title: "WITHER?"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40D1554BDE79F268"]
+			id: "5509B1BFDEAD51F8"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "3886C7B904C37FC0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5509B1BFDEAD51F8"]
+			id: "60D04C58A0E5C926"
+			tasks: [{
+				id: "5B71C8398A44BFBE"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5509B1BFDEAD51F8"]
+			id: "0D29C30CB6039CA0"
+			tasks: [{
+				id: "3F9D83C35AA1BC76"
+				item: {
+					Count: 1b
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5509B1BFDEAD51F8"]
+			id: "11CCCC87FBDEAB76"
+			tasks: [{
+				id: "26098F5751DD50A4"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			id: "7090A75C8C58FB91"
+			tasks: [{
+				id: "22F45FF29206A207"
+				title: "Vanilla Waypoints"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7090A75C8C58FB91"]
+			id: "3390ABA44AFD4F14"
+			tasks: [{
+				id: "4D0B4A25C5F79C40"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+	]
+	title: "Vanilla"
+}
