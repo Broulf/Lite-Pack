@@ -1,4 +1,4 @@
-Vanilla Harmony: A Modded Beginnings Modpack
+Vanilla Harmony: Modded Beginnings
 ======
 This is the official repository and issue-tracker for Vanilla Harmony 1.20.1
 
