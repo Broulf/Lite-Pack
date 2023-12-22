@@ -1,6 +1,6 @@
 {
   "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config",
-  "forge:ingots/aluminum": "null",
+  "forge:ingots/aluminum": "immersiveengineering:ingot_aluminum",
   "forge:ingots/constantan": "thermal:constantan_ingot",
   "forge:ingots/tungsten": "null",
   "forge:ingots/mithril": "null",
@@ -20,8 +20,8 @@
   "forge:gems/apatite": "thermal:apatite",
   "forge:ingots/brass": "create:brass_ingot",
   "forge:ingots/silver": "thermal:silver_ingot",
-  "forge:dusts/saltpeter": "null",
-  "forge:ingots/steel": "null",
+  "forge:dusts/saltpeter": "immersiveengineering:dust_saltpeter",
+  "forge:ingots/steel": "immersiveengineering:ingot_steel",
   "forge:ingots/enderium": "thermal:enderium_ingot",
   "forge:ingots/titanium": "null",
   "forge:rubber": "null",

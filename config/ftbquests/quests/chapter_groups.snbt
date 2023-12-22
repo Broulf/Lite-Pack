@@ -1,3 +1,6 @@
 {
-	chapter_groups: [ ]
+	chapter_groups: [
+		{ id: "095D616510117423", title: "Vanilla" }
+		{ id: "42CCF22FB20491A1", title: "Modded" }
+	]
 }
