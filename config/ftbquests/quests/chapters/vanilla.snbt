@@ -4,6 +4,13 @@
 	default_quest_shape: ""
 	filename: "vanilla"
 	group: "095D616510117423"
+	icon: {
+		Count: 1b
+		id: "minecraft:iron_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "0998B3043D71B0FE"
 	order_index: 0
 	quest_links: [ ]
@@ -656,7 +663,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -9.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["22113F42C563A9B7"]
@@ -808,7 +815,7 @@
 			}]
 			title: "Introduction to Storage Mediums"
 			x: 1.0d
-			y: -9.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["62BEF8ED07AB7AF3"]
@@ -961,7 +968,6 @@
 		{
 			dependencies: ["05940264AB8C9B96"]
 			hide_dependency_lines: false
-			hide_dependent_lines: true
 			id: "204776741E508FF2"
 			tasks: [{
 				entity: "minecraft:enderman"
@@ -1101,6 +1107,94 @@
 			}]
 			x: 3.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["22113F42C563A9B7"]
+			id: "315ECDD1E64A0FB3"
+			tasks: [{
+				id: "43F6C7ED96BA56C5"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22113F42C563A9B7"]
+			id: "45042819218C5560"
+			tasks: [{
+				id: "7017C548131CA590"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22113F42C563A9B7"]
+			id: "0BBAC79A438B1A06"
+			tasks: [{
+				id: "07C83AE635866236"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22113F42C563A9B7"]
+			id: "5BAB786CE1CA7A27"
+			tasks: [{
+				id: "7D3EEF8E7B1F7208"
+				item: "minecraft:beetroot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["45042819218C5560"]
+			id: "7AA4F2693EDAF45F"
+			tasks: [{
+				id: "22E3338093401CEE"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0BBAC79A438B1A06"]
+			id: "678D1DE6CC135BA6"
+			tasks: [{
+				id: "32DFF41D6EC405FC"
+				item: "minecraft:baked_potato"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["315ECDD1E64A0FB3"]
+			id: "1E1C05BAFF4AA88B"
+			tasks: [{
+				id: "6A1D8C02A4471A3B"
+				item: "minecraft:golden_carrot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5BAB786CE1CA7A27"]
+			id: "41F30F53E8F16366"
+			tasks: [{
+				id: "31C86DAF08D46C75"
+				item: "minecraft:beetroot_soup"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
 		}
 	]
 	title: "Vanilla"

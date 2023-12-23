@@ -1,0 +1,328 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iron_furnaces"
+	group: "42CCF22FB20491A1"
+	icon: {
+		Count: 1b
+		id: "ironfurnaces:million_furnace"
+		tag: {
+			display: {
+				Name: "{\"extra\":[{\"color\":\"green\",\"text\":\"R\"},{\"color\":\"aqua\",\"text\":\"a\"},{\"color\":\"light_purple\",\"text\":\"i\"},{\"color\":\"aqua\",\"text\":\"n\"},{\"color\":\"light_purple\",\"text\":\"b\"},{\"color\":\"yellow\",\"text\":\"o\"},{\"color\":\"light_purple\",\"text\":\"w\"},{\"color\":\"blue\",\"text\":\" \"},{\"color\":\"green\",\"text\":\"F\"},{\"color\":\"light_purple\",\"text\":\"u\"},{\"color\":\"red\",\"text\":\"r\"},{\"color\":\"blue\",\"text\":\"n\"},{\"color\":\"aqua\",\"text\":\"a\"},{\"color\":\"aqua\",\"text\":\"c\"},{\"color\":\"yellow\",\"text\":\"e\"}],\"text\":\"\"}"
+			}
+		}
+	}
+	id: "61C2685329EB1DB9"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 2.0d
+		hover: [ ]
+		image: "ironfurnaces:block/million_furnace_front_on"
+		rotation: 0.0d
+		width: 2.0d
+		x: -2.0d
+		y: -4.5d
+	}]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3005A2DCF562A1B1"]
+			icon: {
+				Count: 1b
+				id: "ironfurnaces:million_furnace"
+				tag: {
+					display: {
+						Name: "{\"extra\":[{\"color\":\"green\",\"text\":\"R\"},{\"color\":\"aqua\",\"text\":\"a\"},{\"color\":\"light_purple\",\"text\":\"i\"},{\"color\":\"aqua\",\"text\":\"n\"},{\"color\":\"light_purple\",\"text\":\"b\"},{\"color\":\"light_purple\",\"text\":\"o\"},{\"color\":\"aqua\",\"text\":\"w\"},{\"color\":\"light_purple\",\"text\":\" \"},{\"color\":\"aqua\",\"text\":\"F\"},{\"color\":\"yellow\",\"text\":\"u\"},{\"color\":\"yellow\",\"text\":\"r\"},{\"color\":\"red\",\"text\":\"n\"},{\"color\":\"red\",\"text\":\"a\"},{\"color\":\"green\",\"text\":\"c\"},{\"color\":\"blue\",\"text\":\"e\"}],\"text\":\"\"}"
+					}
+				}
+			}
+			id: "5D59327C4F28CA03"
+			rewards: [
+				{
+					id: "387CB9B7713F6E98"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EC533B06907414D"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "Iron Furnaces adds in new furnaces that help to increase the speed at which items are processed."
+			tasks: [{
+				id: "02F522B875B50E32"
+				title: "Iron Furnaces"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5D59327C4F28CA03"]
+			id: "179718B24C173354"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C80C4A03012D5B0"
+				table_id: 4196188979167302596L
+				type: "random"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "714F18D45CEA7C33"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["179718B24C173354"]
+			id: "42B094BB627E6317"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FABA6BDAD25131A"
+				table_id: 4196188979167302596L
+				type: "random"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "123C4D9795C44082"
+				item: "ironfurnaces:gold_furnace"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["42B094BB627E6317"]
+			id: "7B309AAC28E6F878"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5775C9F3D1C56521"
+				table_id: 4196188979167302596L
+				type: "random"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "62695ACD4BD083E0"
+				item: "ironfurnaces:diamond_furnace"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7B309AAC28E6F878"]
+			id: "70ED6E4C22EBD1BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EF0DD32C42328EC"
+				table_id: 4196188979167302596L
+				type: "random"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0ABC821FE52A40FD"
+				item: "ironfurnaces:crystal_furnace"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["70ED6E4C22EBD1BB"]
+			id: "3734B57F6E26ECC2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DE1A69412342FBD"
+				table_id: 4196188979167302596L
+				type: "random"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3BFA8B40A76380BB"
+				item: "ironfurnaces:obsidian_furnace"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3734B57F6E26ECC2"]
+			id: "278FC81429C870E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A7CED5DDD9F8D10"
+				table_id: 4196188979167302596L
+				type: "random"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4F7D8E46569917EE"
+				item: "ironfurnaces:netherite_furnace"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["027F713E84F51A53"]
+			id: "5C72E7613E3E53D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "107F970C837EA4C5"
+				table_id: 4196188979167302596L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "The Blasting Augment only allows the furnaces to use the Blast Furnace Recipes."
+			tasks: [{
+				id: "503491E8D5C8FD6E"
+				item: "ironfurnaces:augment_blasting"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["027F713E84F51A53"]
+			id: "3162339C347431F5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57C25D7BA79506A9"
+				table_id: 4196188979167302596L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "The Smoking Augment will only allow the furnaces to use the Smoker recipes."
+			tasks: [{
+				id: "1E2222B26D81C277"
+				item: "ironfurnaces:augment_smoking"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["027F713E84F51A53"]
+			id: "079F7C11A15C8505"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "633BE701DA758EB7"
+				table_id: 4196188979167302596L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "The Factory Augment allows for the furnaces to use FE/RF as fuel."
+			tasks: [{
+				id: "1C4864250F082AA0"
+				item: "ironfurnaces:augment_factory"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["027F713E84F51A53"]
+			id: "4FF76FA91B2D5F9E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "745EA4406F9070B6"
+				table_id: 4196188979167302596L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "The Generator Augment allows for furnaces to use fuel and to create FE power."
+			tasks: [{
+				id: "7B65A6AE2B89DB0A"
+				item: "ironfurnaces:augment_generator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.010204081632665d
+		}
+		{
+			dependencies: ["027F713E84F51A53"]
+			id: "6B482CA32EE5D789"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "255CD6FD091C8388"
+				table_id: 4196188979167302596L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "The Speed Augment allows for the furnace to work double-time, however, it uses 2x as much fuel."
+			tasks: [{
+				id: "3B9BC7CFD7E78BC9"
+				item: "ironfurnaces:augment_speed"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["027F713E84F51A53"]
+			id: "5B21726E2157D2C4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D81D31EF6CABB25"
+				table_id: 4196188979167302596L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "The Fuel Efficiency Augment allows for fuel to be used twice as longer, however, processing is 25% slower."
+			tasks: [{
+				id: "029755D19AC12BA6"
+				item: "ironfurnaces:augment_fuel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7B309AAC28E6F878"]
+			id: "522E01A8398B34F3"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5055A5165F117516"
+				table_id: 4196188979167302596L
+				type: "random"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3CE1962A249ABDF9"
+				item: "ironfurnaces:emerald_furnace"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5D59327C4F28CA03"]
+			id: "027F713E84F51A53"
+			rewards: [{
+				id: "3A2CD840EA9BD0C9"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			subtitle: "Augments can be added to the new furnaces to change how they behave."
+			tasks: [{
+				id: "45C674118833B21D"
+				title: "Augments"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+	]
+	title: "Iron Furnaces"
+}

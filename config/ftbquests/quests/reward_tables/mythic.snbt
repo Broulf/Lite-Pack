@@ -1,0 +1,12 @@
+{
+	icon: "minecraft:nether_star"
+	id: "481E10AEAC95C550"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ item: "mysticalagriculture:awakened_supremium_block", random_bonus: 1 }
+		{ item: "botania:dice", weight: 2.0f }
+	]
+	title: "&5Mythic Reward"
+	use_title: true
+}

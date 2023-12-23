@@ -1,0 +1,49 @@
+{
+	icon: {
+		Count: 1b
+		id: "ftbquests:lootcrate"
+		tag: {
+			type: "rare_loot_chest"
+		}
+	}
+	id: "4D37FFAF33DF678A"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fortune"
+						lvl: 5s
+					}]
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 5s
+					}]
+				}
+			}
+			weight: 3.0f
+		}
+		{ item: "minecraft:dragon_egg", weight: 2.0f }
+		{ item: "minecraft:dragon_head" }
+		{ item: "ironfurnaces:diamond_furnace", weight: 3.0f }
+		{ item: "ironfurnaces:emerald_furnace" }
+		{ item: "minecraft:beacon", weight: 2.0f }
+		{ item: "minecraft:nether_star", random_bonus: 2, weight: 2.0f }
+		{ item: "functionalstorage:netherite_upgrade" }
+	]
+	title: "&9Rare Reward"
+	use_title: true
+}

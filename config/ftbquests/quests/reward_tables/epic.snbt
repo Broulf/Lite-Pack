@@ -1,0 +1,73 @@
+{
+	icon: "lootr:lootr_chest"
+	id: "617F6D802ED0FD00"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ item: "functionalstorage:netherite_upgrade", weight: 2.0f }
+		{ item: "ironfurnaces:netherite_furnace" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "potionsmaster:allthemodium_sight"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fortune"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			type: "xp_levels"
+			xp_levels: 50
+		}
+	]
+	title: "&dEpic Reward"
+	use_title: true
+}
