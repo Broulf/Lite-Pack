@@ -17,11 +17,19 @@
 	quests: [
 		{
 			id: "4B2132160761EE35"
-			rewards: [{
-				id: "129E30126CA70A29"
-				item: "minecraft:oak_log"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "129E30126CA70A29"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D8340A95CFF1E18"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "2FD6D770FD04E86F"
 				item: "minecraft:oak_log"
@@ -47,6 +55,12 @@
 					table_id: 6404986403409355254L
 					type: "choice"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "7A48E5BB74E5286C"
+					table_id: 487623848494439020L
+					type: "random"
+				}
 			]
 			tasks: [{
 				id: "5F43344CBFE84721"
@@ -61,11 +75,19 @@
 			dependencies: ["4C6C41C8BBCA614B"]
 			dependency_requirement: "one_completed"
 			id: "0E6121A6FFE69477"
-			rewards: [{
-				id: "5303EA8A88591132"
-				item: "minecraft:apple"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5303EA8A88591132"
+					item: "minecraft:apple"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "302C6F43E3CED7E5"
+					table_id: 487623848494439020L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "7B409BF5CBB2B671"
 				item: {
@@ -84,11 +106,19 @@
 		{
 			dependencies: ["4C6C41C8BBCA614B"]
 			id: "09ECBC61F446B04A"
-			rewards: [{
-				id: "68FE9FAC36FE37F0"
-				item: "minecraft:apple"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "68FE9FAC36FE37F0"
+					item: "minecraft:apple"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A34962A358AC791"
+					table_id: 487623848494439020L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "63868DDAB23F4418"
 				item: {
@@ -107,11 +137,19 @@
 		{
 			dependencies: ["4C6C41C8BBCA614B"]
 			id: "33B58CFE3CE36CF5"
-			rewards: [{
-				id: "76C3E05BC7E7AA29"
-				item: "minecraft:apple"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "76C3E05BC7E7AA29"
+					item: "minecraft:apple"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0BE18F6938AEA32C"
+					table_id: 487623848494439020L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "2FF6980F1C31363B"
 				item: {
@@ -130,11 +168,19 @@
 		{
 			dependencies: ["4C6C41C8BBCA614B"]
 			id: "7FD0522548C7733C"
-			rewards: [{
-				id: "2BA58586182C57B5"
-				item: "minecraft:apple"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2BA58586182C57B5"
+					item: "minecraft:apple"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "620D167D3653FA7E"
+					table_id: 487623848494439020L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "7A4F3CBA9287269C"
 				item: {
@@ -154,11 +200,19 @@
 			dependencies: ["0E6121A6FFE69477"]
 			dependency_requirement: "one_completed"
 			id: "11A2C237706944F7"
-			rewards: [{
-				id: "6664D127EED9794E"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "6664D127EED9794E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C34FF99B30B09D4"
+					table_id: 487623848494439020L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "5EDFCA2EA1015413"
 				item: {
@@ -176,11 +230,19 @@
 		{
 			dependencies: ["11A2C237706944F7"]
 			id: "518240B584A03EED"
-			rewards: [{
-				id: "507AA53CB81A2EC1"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "507AA53CB81A2EC1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "232F8EF0F1F18B06"
+					table_id: 487623848494439020L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "2EA7B52231E0FF7E"
 				item: {
@@ -198,11 +260,19 @@
 		{
 			dependencies: ["518240B584A03EED"]
 			id: "426401DFC653AEE6"
-			rewards: [{
-				id: "2DF0CB29D88E4013"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "2DF0CB29D88E4013"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "098CA6F1194838DB"
+					table_id: 487623848494439020L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "74ECC77D73D28DF4"
 				item: {
@@ -220,11 +290,19 @@
 		{
 			dependencies: ["426401DFC653AEE6"]
 			id: "6EC0DE114C526789"
-			rewards: [{
-				id: "38BCB6657351744D"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "38BCB6657351744D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72B292C5F32B356C"
+					table_id: 487623848494439020L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "7AA12F94F1744793"
 				item: {
@@ -242,11 +320,19 @@
 		{
 			dependencies: ["6EC0DE114C526789"]
 			id: "2AEB61536B0C5BD8"
-			rewards: [{
-				id: "6F2F0253B92E0DD6"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "6F2F0253B92E0DD6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51CD40B59CA769C0"
+					table_id: 487623848494439020L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "5AFDBCB371CF087F"
 				item: {
@@ -264,11 +350,19 @@
 		{
 			dependencies: ["09ECBC61F446B04A"]
 			id: "3B8B4F23CD9DD6CF"
-			rewards: [{
-				id: "0B88700B86053885"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "0B88700B86053885"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37DAE7A14FF16A8C"
+					table_id: 487623848494439020L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "4403BFBC76A6F233"
 				item: {
@@ -286,11 +380,19 @@
 		{
 			dependencies: ["3B8B4F23CD9DD6CF"]
 			id: "521CA13C2D22663C"
-			rewards: [{
-				id: "23C8DA49FF31C422"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "23C8DA49FF31C422"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63CBBACDF06674BF"
+					table_id: 487623848494439020L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "6193C12B1016F3A8"
 				item: {
@@ -308,11 +410,19 @@
 		{
 			dependencies: ["521CA13C2D22663C"]
 			id: "410DE8A06048451E"
-			rewards: [{
-				id: "391B373C590FE347"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "391B373C590FE347"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31A514B131685E3B"
+					table_id: 487623848494439020L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "60712AA6D91F02B4"
 				item: {
@@ -330,11 +440,19 @@
 		{
 			dependencies: ["410DE8A06048451E"]
 			id: "16D799CBCF4F88DB"
-			rewards: [{
-				id: "6304B8EB3E76833B"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "6304B8EB3E76833B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60DFEFED18224B50"
+					table_id: 487623848494439020L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "1A9FB786BFDA26D0"
 				item: {
@@ -352,11 +470,19 @@
 		{
 			dependencies: ["16D799CBCF4F88DB"]
 			id: "10CBD8549C1F5B61"
-			rewards: [{
-				id: "3E44D9D388372692"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "3E44D9D388372692"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52C77FFEED20038C"
+					table_id: 487623848494439020L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "3AACD4CEAD5D9E15"
 				item: {
@@ -374,11 +500,19 @@
 		{
 			dependencies: ["33B58CFE3CE36CF5"]
 			id: "478736292A95F11C"
-			rewards: [{
-				id: "314D3EE8A98847B0"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "314D3EE8A98847B0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C9E3C324796924E"
+					table_id: 487623848494439020L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "2D0D7B985CBE87DC"
 				item: {
@@ -396,11 +530,19 @@
 		{
 			dependencies: ["478736292A95F11C"]
 			id: "53D31CFC4818A09F"
-			rewards: [{
-				id: "69C6773DDD079A7A"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "69C6773DDD079A7A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EB4AD57148C21AE"
+					table_id: 487623848494439020L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "48850DBADA035E7C"
 				item: {
@@ -418,11 +560,19 @@
 		{
 			dependencies: ["53D31CFC4818A09F"]
 			id: "6C4A045892D2EE2E"
-			rewards: [{
-				id: "4DBB07076C9764D4"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "4DBB07076C9764D4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3107BA270BEFBC54"
+					table_id: 487623848494439020L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "16DDA9BBCBADF009"
 				item: {
@@ -440,11 +590,19 @@
 		{
 			dependencies: ["6C4A045892D2EE2E"]
 			id: "0754677EAF2426C6"
-			rewards: [{
-				id: "0D54A24F7692F1D2"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "0D54A24F7692F1D2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "169B8502C3E370BB"
+					table_id: 487623848494439020L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "4CA8ED20ED8DC823"
 				item: {
@@ -462,11 +620,19 @@
 		{
 			dependencies: ["0754677EAF2426C6"]
 			id: "5B1526FDDD6AD0A1"
-			rewards: [{
-				id: "5CB5DB49E60B434A"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "5CB5DB49E60B434A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A9515E7DC9072B2"
+					table_id: 487623848494439020L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "15296DA350304BD7"
 				item: {
@@ -484,11 +650,19 @@
 		{
 			dependencies: ["526083B363B8754A"]
 			id: "1E4E12CB0069AC62"
-			rewards: [{
-				id: "5A7DAD31BB9EF850"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "5A7DAD31BB9EF850"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CA06075BD9E1EB6"
+					table_id: 487623848494439020L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "469561B06C6D90FD"
 				item: {
@@ -506,11 +680,19 @@
 		{
 			dependencies: ["1E4E12CB0069AC62"]
 			id: "39992CBBF5D262D8"
-			rewards: [{
-				id: "75E8ACF0711E7185"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "75E8ACF0711E7185"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1470B8C1F804040F"
+					table_id: 487623848494439020L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "1EA66A4AF2E90FB4"
 				item: {
@@ -528,11 +710,19 @@
 		{
 			dependencies: ["7FD0522548C7733C"]
 			id: "526083B363B8754A"
-			rewards: [{
-				id: "64DC6568E01BB0C2"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "64DC6568E01BB0C2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11DC03D9DB4C02C3"
+					table_id: 487623848494439020L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "2046D8AAE9BB9C75"
 				item: {
@@ -550,11 +740,19 @@
 		{
 			dependencies: ["39992CBBF5D262D8"]
 			id: "76CDA9BF58C98F76"
-			rewards: [{
-				id: "71368A39C8DDF4D6"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "71368A39C8DDF4D6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27A7D1D1DBA59AA0"
+					table_id: 487623848494439020L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "75179D6C7EE3EAF9"
 				item: {
@@ -572,11 +770,19 @@
 		{
 			dependencies: ["76CDA9BF58C98F76"]
 			id: "301F83B1206E944F"
-			rewards: [{
-				id: "49529302689B7BB9"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "49529302689B7BB9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "119B1BD067A06881"
+					table_id: 487623848494439020L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "4BEE5A1623D432DC"
 				item: {
@@ -594,12 +800,20 @@
 		{
 			dependencies: ["3D3C8C44919D574A"]
 			id: "3005A2DCF562A1B1"
-			rewards: [{
-				count: 16
-				id: "022A636147DCD048"
-				item: "minecraft:coal"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "022A636147DCD048"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2961ADA3F80FF7D7"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "124631815EED3192"
 				item: "minecraft:furnace"
@@ -611,11 +825,19 @@
 		{
 			dependencies: ["3D3C8C44919D574A"]
 			id: "284EDF06CB62C998"
-			rewards: [{
-				id: "6AF3B3619C5A2A18"
-				item: "minecraft:lava_bucket"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6AF3B3619C5A2A18"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EB31B92C8132653"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "240A01C233644485"
 				item: "minecraft:blast_furnace"
@@ -627,12 +849,20 @@
 		{
 			dependencies: ["3D3C8C44919D574A"]
 			id: "53BC64EAF57789AB"
-			rewards: [{
-				count: 8
-				id: "1ECE5EE69255B6A9"
-				item: "minecraft:cooked_beef"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "1ECE5EE69255B6A9"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58988B864C3A88CF"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "1873D3225CB7F44C"
 				item: "minecraft:smoker"
@@ -645,6 +875,12 @@
 			dependencies: ["776F31EB2A8B38E9"]
 			hide_dependency_lines: false
 			id: "3D3C8C44919D574A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "653BA934133776C7"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				count: 8L
 				id: "4E5A54F07918D0BD"
@@ -657,6 +893,12 @@
 		{
 			dependencies: ["6A40256386C8A67F"]
 			id: "761DA907C4972452"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16FB839A16459539"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "79D901E4CA2BB4C9"
 				item: "minecraft:white_bed"
@@ -668,6 +910,11 @@
 		{
 			dependencies: ["22113F42C563A9B7"]
 			id: "758BF00D495A8118"
+			rewards: [{
+				id: "4CB29F678F289074"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3C169BEDACE905C2"
 				item: "minecraft:cooked_beef"
@@ -679,6 +926,11 @@
 		{
 			dependencies: ["22113F42C563A9B7"]
 			id: "7E874C067F0CB0E1"
+			rewards: [{
+				id: "76DD1E1DD27F59CB"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "55C818210FEA170F"
 				item: "minecraft:cooked_porkchop"
@@ -690,6 +942,11 @@
 		{
 			dependencies: ["22113F42C563A9B7"]
 			id: "335580694CD406BA"
+			rewards: [{
+				id: "1AB284262804A35F"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "15527EE1E78F3A04"
 				item: "minecraft:cooked_chicken"
@@ -701,6 +958,11 @@
 		{
 			dependencies: ["22113F42C563A9B7"]
 			id: "347819B5859EC846"
+			rewards: [{
+				id: "600350F689BE2F5B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "25C391D2B4852B03"
 				item: "minecraft:cooked_rabbit"
@@ -711,6 +973,12 @@
 		}
 		{
 			id: "7C6CBBD20A9A9C99"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76156D3A14DBD7A4"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7906D149796AE284"
 				title: "Time to Start Mining"
@@ -723,6 +991,12 @@
 		{
 			dependencies: ["7C6CBBD20A9A9C99"]
 			id: "6FAEAA94902204A9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EDA1C94CD9587FF"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "784A9FC39CCFDC01"
 				item: "minecraft:diamond"
@@ -734,6 +1008,12 @@
 		{
 			dependencies: ["7C6CBBD20A9A9C99"]
 			id: "6787B4FCCEF118FA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04486CB86FDF349B"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7FE311FA8E3C535A"
 				item: "minecraft:coal"
@@ -745,6 +1025,12 @@
 		{
 			dependencies: ["7C6CBBD20A9A9C99"]
 			id: "4B3F98E52CA25E7B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26689262AC970A5E"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3F1483B25DEE485D"
 				item: "minecraft:iron_ingot"
@@ -756,6 +1042,12 @@
 		{
 			dependencies: ["7C6CBBD20A9A9C99"]
 			id: "0C1C29436FDE0B0F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B989B99A7FACB2D"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "456D979433598754"
 				item: "minecraft:gold_ingot"
@@ -767,6 +1059,12 @@
 		{
 			dependencies: ["7C6CBBD20A9A9C99"]
 			id: "2F58DA528C72FE40"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37811FDCDDE3BFEF"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "068342539C757C98"
 				item: "minecraft:redstone"
@@ -787,6 +1085,12 @@
 		}
 		{
 			id: "776F31EB2A8B38E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B5478FE730698C5"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5D74D21686AB289D"
 				title: "Production"
@@ -797,6 +1101,11 @@
 		}
 		{
 			id: "22113F42C563A9B7"
+			rewards: [{
+				id: "66FBE7E3143FA611"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0D6B82599B1A09F3"
 				title: "FOOD!"
@@ -808,6 +1117,12 @@
 		{
 			dependencies: ["6A40256386C8A67F"]
 			id: "17E3FD0114474F43"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5837D4C76A75168C"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "24650FDF6300AC71"
 				item: "minecraft:chest"
@@ -820,17 +1135,25 @@
 		{
 			dependencies: ["62BEF8ED07AB7AF3"]
 			id: "6A1D6E078BD1A3E7"
-			rewards: [{
-				id: "7539B6969C40A054"
-				item: {
-					Count: 1b
-					id: "minecraft:flint_and_steel"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "7539B6969C40A054"
+					item: {
+						Count: 1b
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "3BFDCC57482183A9"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
 			tasks: [{
 				count: 10L
 				id: "1FB8FCC1109D3B61"
@@ -842,6 +1165,12 @@
 		}
 		{
 			id: "62BEF8ED07AB7AF3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7151C472CA0F287D"
+				table_id: 4196188979167302596L
+				type: "random"
+			}]
 			subtitle: "NETHER!? I barely know her!"
 			tasks: [{
 				id: "02165B9F6F8AB763"
@@ -854,6 +1183,12 @@
 		{
 			dependencies: ["6A1D6E078BD1A3E7"]
 			id: "09F8AAE4B14EF04B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C79570119EDC15E"
+				table_id: 4196188979167302596L
+				type: "random"
+			}]
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "006269952CE60730"
@@ -865,11 +1200,19 @@
 		{
 			dependencies: ["09F8AAE4B14EF04B"]
 			id: "567EE57F9A13D74C"
-			rewards: [{
-				id: "1DD7DB985F20F953"
-				item: "minecraft:blaze_powder"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1DD7DB985F20F953"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50E994E298653790"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "610082B9C5D406C0"
 				item: "minecraft:blaze_rod"
@@ -881,6 +1224,12 @@
 		{
 			dependencies: ["09F8AAE4B14EF04B"]
 			id: "606E3C138B97931B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "719EDB7BBD2DDB50"
+				table_id: 4196188979167302596L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0BACAE679CBCCA63"
 				item: "minecraft:magma_cream"
@@ -891,6 +1240,12 @@
 		}
 		{
 			id: "05940264AB8C9B96"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DCA09E5F0BDE4DC"
+				table_id: 7025454341029952768L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2E36E9DA6912C0AE"
 				title: "THE END?!"
@@ -902,6 +1257,12 @@
 		{
 			dependencies: ["204776741E508FF2"]
 			id: "6E987534547CEBAA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47361D0FCA4CFF03"
+				table_id: 7025454341029952768L
+				type: "random"
+			}]
 			tasks: [{
 				id: "17B5B0ABF64EFA59"
 				item: "minecraft:ender_pearl"
@@ -913,6 +1274,12 @@
 		{
 			dependencies: ["6E987534547CEBAA"]
 			id: "3EEF349824448AB7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D7262183DEAC140"
+				table_id: 7025454341029952768L
+				type: "random"
+			}]
 			tasks: [{
 				id: "53604C3C1C5AC3F4"
 				item: "minecraft:ender_eye"
@@ -924,6 +1291,12 @@
 		{
 			dependencies: ["36A85CBFA65B5E17"]
 			id: "40D1554BDE79F268"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "260E19030E05381A"
+				table_id: 7025454341029952768L
+				type: "random"
+			}]
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "22BB3F1DEACF28A6"
@@ -935,6 +1308,12 @@
 		{
 			dependencies: ["3EEF349824448AB7"]
 			id: "36A85CBFA65B5E17"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D0E751C8D44B3C1"
+				table_id: 7025454341029952768L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6D3A5E36E892B24A"
 				structure: "minecraft:stronghold"
@@ -946,6 +1325,12 @@
 		{
 			dependencies: ["09F8AAE4B14EF04B"]
 			id: "2B28DF2C12B472ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A6157B49DF98963"
+				table_id: 4196188979167302596L
+				type: "random"
+			}]
 			tasks: [{
 				id: "63BAF86ACE16247C"
 				item: "minecraft:quartz"
@@ -957,6 +1342,12 @@
 		{
 			dependencies: ["09F8AAE4B14EF04B"]
 			id: "07CB1C24DEFDF36F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "163A04C9A5A4DF60"
+				table_id: 4196188979167302596L
+				type: "random"
+			}]
 			tasks: [{
 				id: "52EDE53F81A34046"
 				item: "minecraft:glowstone_dust"
@@ -969,6 +1360,12 @@
 			dependencies: ["05940264AB8C9B96"]
 			hide_dependency_lines: false
 			id: "204776741E508FF2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D41D96365044EC0"
+				table_id: 7025454341029952768L
+				type: "random"
+			}]
 			tasks: [{
 				entity: "minecraft:enderman"
 				id: "2EF2FD0A5DAA6E4C"
@@ -981,6 +1378,12 @@
 		{
 			dependencies: ["09158F235D14E642"]
 			id: "67D916FF91EFF26C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BA4A0BEAD8B9A4F"
+				table_id: 7025454341029952768L
+				type: "random"
+			}]
 			tasks: [{
 				entity: "minecraft:wither_skeleton"
 				id: "1848629EBF12105F"
@@ -993,6 +1396,12 @@
 		{
 			dependencies: ["67D916FF91EFF26C"]
 			id: "0ECB1F2EF500B60A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "562E24E611EE9C0D"
+				table_id: 7025454341029952768L
+				type: "random"
+			}]
 			tasks: [{
 				count: 3L
 				id: "7921FFB2550CAD86"
@@ -1005,6 +1414,12 @@
 		{
 			dependencies: ["0ECB1F2EF500B60A"]
 			id: "3661F0030D967551"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19E4505DB27644F8"
+				table_id: 7025454341029952768L
+				type: "random"
+			}]
 			tasks: [{
 				entity: "minecraft:wither"
 				id: "28C6D4F0BF9CE9D2"
@@ -1017,6 +1432,12 @@
 		{
 			dependencies: ["3661F0030D967551"]
 			id: "6D2071B23B318C52"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16B9F8ED71251119"
+				table_id: 7025454341029952768L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0CF869189C805057"
 				item: "minecraft:nether_star"
@@ -1027,6 +1448,12 @@
 		}
 		{
 			id: "09158F235D14E642"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "430B35DA2F68B3DE"
+				table_id: 7025454341029952768L
+				type: "random"
+			}]
 			subtitle: "WITHER? I barely know her!"
 			tasks: [{
 				id: "3E9C48E49368E8E2"
@@ -1039,6 +1466,12 @@
 		{
 			dependencies: ["40D1554BDE79F268"]
 			id: "5509B1BFDEAD51F8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F94C481E75CE2E8"
+				table_id: 7025454341029952768L
+				type: "random"
+			}]
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				id: "3886C7B904C37FC0"
@@ -1051,6 +1484,12 @@
 		{
 			dependencies: ["5509B1BFDEAD51F8"]
 			id: "60D04C58A0E5C926"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C100AA17128D7C7"
+				table_id: 7025454341029952768L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5B71C8398A44BFBE"
 				item: "minecraft:dragon_egg"
@@ -1062,6 +1501,12 @@
 		{
 			dependencies: ["5509B1BFDEAD51F8"]
 			id: "0D29C30CB6039CA0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79CB948D2F137759"
+				table_id: 7025454341029952768L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3F9D83C35AA1BC76"
 				item: {
@@ -1079,6 +1524,12 @@
 		{
 			dependencies: ["5509B1BFDEAD51F8"]
 			id: "11CCCC87FBDEAB76"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70AC66D50EAB057A"
+				table_id: 7025454341029952768L
+				type: "random"
+			}]
 			tasks: [{
 				id: "26098F5751DD50A4"
 				item: "minecraft:dragon_head"
@@ -1089,6 +1540,12 @@
 		}
 		{
 			id: "7090A75C8C58FB91"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AB191288BABC09B"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "22F45FF29206A207"
 				title: "Vanilla Waypoints"
@@ -1100,6 +1557,12 @@
 		{
 			dependencies: ["7090A75C8C58FB91"]
 			id: "3390ABA44AFD4F14"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59607E95FA002A84"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4D0B4A25C5F79C40"
 				item: "minecraft:beacon"
@@ -1111,6 +1574,11 @@
 		{
 			dependencies: ["22113F42C563A9B7"]
 			id: "315ECDD1E64A0FB3"
+			rewards: [{
+				id: "0C74D2D365487B2C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "43F6C7ED96BA56C5"
 				item: "minecraft:carrot"
@@ -1122,6 +1590,11 @@
 		{
 			dependencies: ["22113F42C563A9B7"]
 			id: "45042819218C5560"
+			rewards: [{
+				id: "69F6717A870F6F74"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7017C548131CA590"
 				item: "minecraft:wheat"
@@ -1133,6 +1606,11 @@
 		{
 			dependencies: ["22113F42C563A9B7"]
 			id: "0BBAC79A438B1A06"
+			rewards: [{
+				id: "4257439991058406"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "07C83AE635866236"
 				item: "minecraft:potato"
@@ -1144,6 +1622,11 @@
 		{
 			dependencies: ["22113F42C563A9B7"]
 			id: "5BAB786CE1CA7A27"
+			rewards: [{
+				id: "4EB8CCC5D2714C77"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7D3EEF8E7B1F7208"
 				item: "minecraft:beetroot"
@@ -1155,6 +1638,11 @@
 		{
 			dependencies: ["45042819218C5560"]
 			id: "7AA4F2693EDAF45F"
+			rewards: [{
+				id: "459CCD0D77CB96BC"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "22E3338093401CEE"
 				item: "minecraft:bread"
@@ -1166,6 +1654,11 @@
 		{
 			dependencies: ["0BBAC79A438B1A06"]
 			id: "678D1DE6CC135BA6"
+			rewards: [{
+				id: "2D8A2B8408AFA0E6"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "32DFF41D6EC405FC"
 				item: "minecraft:baked_potato"
@@ -1177,6 +1670,11 @@
 		{
 			dependencies: ["315ECDD1E64A0FB3"]
 			id: "1E1C05BAFF4AA88B"
+			rewards: [{
+				id: "0488F8F3834E2991"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6A1D8C02A4471A3B"
 				item: "minecraft:golden_carrot"
@@ -1188,6 +1686,11 @@
 		{
 			dependencies: ["5BAB786CE1CA7A27"]
 			id: "41F30F53E8F16366"
+			rewards: [{
+				id: "76D8A9CF1433A03F"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "31C86DAF08D46C75"
 				item: "minecraft:beetroot_soup"

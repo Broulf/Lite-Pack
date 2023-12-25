@@ -479,6 +479,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["17E3FD0114474F43"]
 			description: [
 				"Functional Storage is a mod for storing stacks of the same items."
 				""
@@ -504,6 +505,7 @@
 			y: -3.9464285714285623d
 		}
 		{
+			dependencies: ["17E3FD0114474F43"]
 			description: [
 				"Sophisticated Chests allows you to upgrade your chests with metals to increase storage! You can also add upgrade filters to increase the functionality of the chest."
 				""
@@ -811,6 +813,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["17E3FD0114474F43"]
 			description: [
 				"Iron Chests allows you to upgrade your chests with metals to increase storage! You can also add upgrade filters to increase the functionality of the chest."
 				""

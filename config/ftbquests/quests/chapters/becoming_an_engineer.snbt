@@ -1630,18 +1630,12 @@
 			]
 			icon: "immersiveengineering:refinery"
 			id: "0000000000000263"
-			rewards: [
-				{
-					count: 3
-					id: "000000000000050A"
-					item: "immersiveengineering:steel_scaffolding_standard"
-					type: "item"
-				}
-				{
-					id: "000000000000131B"
-					type: "random"
-				}
-			]
+			rewards: [{
+				count: 3
+				id: "000000000000050A"
+				item: "immersiveengineering:steel_scaffolding_standard"
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
 			tasks: [
@@ -1927,10 +1921,6 @@
 					item: "spareparts:coins/copper_coin"
 					type: "item"
 				}
-				{
-					id: "000000000000055E"
-					type: "random"
-				}
 			]
 			shape: "square"
 			size: 1.5d
@@ -2062,17 +2052,11 @@
 			]
 			icon: "immersiveengineering:sawmill"
 			id: "0000000000000271"
-			rewards: [
-				{
-					id: "00000000000004B5"
-					item: "minecraft:emerald"
-					type: "item"
-				}
-				{
-					id: "000000000000055D"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "00000000000004B5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
 			tasks: [
@@ -2302,16 +2286,6 @@
 			dependencies: ["0000000000001047"]
 			description: ["Redstone Engineering Blocks can be thought of as the control blocks for a machine, a control panel in essence."]
 			id: "0000000000000FA5"
-			rewards: [
-				{
-					id: "000000000000130D"
-					type: "random"
-				}
-				{
-					id: "000000000000130E"
-					type: "random"
-				}
-			]
 			tasks: [{
 				id: "0000000000000FA6"
 				item: "immersiveengineering:rs_engineering"
@@ -2324,10 +2298,6 @@
 			dependencies: ["00000000000000FD"]
 			description: ["Steel scaffold will be used throughout your multiblock machine construction, and also looks really good as decoration."]
 			id: "0000000000000FA7"
-			rewards: [{
-				id: "000000000000130C"
-				type: "random"
-			}]
 			tasks: [{
 				id: "0000000000000FA8"
 				item: "immersiveengineering:steel_scaffolding_standard"
@@ -2502,10 +2472,6 @@
 			]
 			description: ["Radiator Blocks can be thought of as the machinery components that help dissipate heat away from a working machine."]
 			id: "0000000000001049"
-			rewards: [{
-				id: "000000000000130F"
-				type: "random"
-			}]
 			tasks: [{
 				id: "000000000000104A"
 				item: "immersiveengineering:radiator"
@@ -2521,10 +2487,6 @@
 			]
 			description: ["Generator Blocks can be thought of as the components in a machine where electricity is made."]
 			id: "000000000000104B"
-			rewards: [{
-				id: "0000000000001310"
-				type: "random"
-			}]
 			tasks: [{
 				id: "000000000000104C"
 				item: "immersiveengineering:generator"
@@ -2824,10 +2786,6 @@
 				"Perhaps I should disolve the grit in some gasoline and see what I can extract."
 			]
 			id: "124CA5F8643ACDC1"
-			rewards: [{
-				id: "24A1ACB3D24277A8"
-				type: "random"
-			}]
 			tasks: [{
 				count: 8L
 				id: "6D40C5DD92C00101"
@@ -2959,10 +2917,6 @@
 			dependencies: ["0000000000000253"]
 			description: ["The Blade Quiver, when applied, will allow you to carry 2 extra blades for the Buzzsaw. They can be switched with a keybind (which you must set) or by sneaking and using the scroll wheel on your mouse."]
 			id: "73730C3C46BF8609"
-			rewards: [{
-				id: "3D298CE20B7F16C2"
-				type: "random"
-			}]
 			tasks: [{
 				id: "166D0CF3DEF79280"
 				item: "immersiveengineering:toolupgrade_buzzsaw_spareblades"
@@ -2975,10 +2929,6 @@
 			dependencies: ["0000000000000251"]
 			description: ["When applied, will allow the Mining Drill to run underwater, it cannot normally as it is a combustion engine, and it will have no underwater related mining slowdown."]
 			id: "77A7918BBB36BDB7"
-			rewards: [{
-				id: "1589B72855CB4C41"
-				type: "random"
-			}]
 			tasks: [{
 				id: "2F1C5AD885D954ED"
 				item: "immersiveengineering:toolupgrade_drill_waterproof"
@@ -2991,10 +2941,6 @@
 			dependencies: ["0000000000000251"]
 			description: ["Additional Augers will allow the Mining Drill to mine faster and do more damage to mobs. It can be applied up to 3 times to a Mining Drill."]
 			id: "3F82A41908EC52BF"
-			rewards: [{
-				id: "7E9AA5CE2603069F"
-				type: "random"
-			}]
 			tasks: [{
 				id: "4C2CD590DA4AC7D3"
 				item: "immersiveengineering:toolupgrade_drill_damage"
@@ -3083,10 +3029,6 @@
 			dependencies: ["01C74BC5778378FE"]
 			description: ["Created Logic Circuits must be placed within a Logic Unit to work. Each Logic Unit can contain up to 10 Logic Circuits, which it will perform in their order in the Unit. To hook the Logic Unit into a network with a Redstone Interface Connector."]
 			id: "1EEF3F593EC2A230"
-			rewards: [{
-				id: "6DBE65C58B1D588E"
-				type: "random"
-			}]
 			tasks: [
 				{
 					id: "17D42D81C99EACDA"

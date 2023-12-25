@@ -5,7 +5,7 @@
 	group: "42CCF22FB20491A1"
 	icon: "refinedstorage:creative_controller"
 	id: "15AAF17B6665223D"
-	order_index: 9
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{
@@ -18,22 +18,12 @@
 				"The Controller is the \"Core\" of your storage network. When provided with power, it gives life to all RS components connected. Each network can only have one Controller."
 			]
 			id: "01F18150EC923482"
-			rewards: [
-				{
-					id: "13BC4987B9B25D15"
-					type: "random"
-				}
-				{
-					id: "762245D6E1A1C755"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4CFAC4C65BC5603E"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CFAC4C65BC5603E"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "Getting Started"
@@ -51,10 +41,6 @@
 			description: ["The 1k Storage Disk can store 1000 items."]
 			id: "4101F8275B41C79B"
 			rewards: [
-				{
-					id: "0E75917E7E00D711"
-					type: "random"
-				}
 				{
 					exclude_from_claim_all: true
 					id: "0515C2DBAAF7C3FF"
@@ -83,14 +69,6 @@
 			id: "3FD801D7DE9176FB"
 			rewards: [
 				{
-					id: "45B99CC9C8BFE5A7"
-					type: "random"
-				}
-				{
-					id: "103ED5D40508531F"
-					type: "random"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "07388A16551BDF11"
 					table_id: 4001436279668650237L
@@ -118,14 +96,6 @@
 			id: "03C78165C5CBD9E1"
 			rewards: [
 				{
-					id: "52C389613C90C469"
-					type: "random"
-				}
-				{
-					id: "5BC7096137A2F4BB"
-					type: "random"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "6FC287448B5E98BD"
 					table_id: 4001436279668650237L
@@ -152,14 +122,6 @@
 			description: ["The 64k Storage Disk can store 64000 items."]
 			id: "3F8EEE1AD4420702"
 			rewards: [
-				{
-					id: "4E028E9A2CD6831A"
-					type: "random"
-				}
-				{
-					id: "12AD2DB65B2AC554"
-					type: "random"
-				}
 				{
 					exclude_from_claim_all: true
 					id: "6A697E39313EE1E7"
@@ -200,10 +162,6 @@
 					type: "item"
 				}
 				{
-					id: "6831B9D1AB4346E0"
-					type: "random"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "781F68985E2418DF"
 					table_id: 4001436279668650237L
@@ -224,18 +182,12 @@
 			dependencies: ["01F18150EC923482"]
 			description: ["The &9Wrench&r is used to rotate blocks, instantly break Refined Storage blocks, or break Covers."]
 			id: "3FAD086F7D9CCAE9"
-			rewards: [
-				{
-					id: "182081F231AA3B51"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "07C7AEE66A7C91BE"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07C7AEE66A7C91BE"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			subtitle: "You spin me right round'"
 			tasks: [{
 				id: "411F819314EF6C57"
@@ -260,10 +212,6 @@
 					item: "refinedstorage:cable"
 					random_bonus: 8
 					type: "item"
-				}
-				{
-					id: "1174925025CC0A56"
-					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
@@ -296,18 +244,12 @@
 				"You can also filter what items are pulled. Need more filter slots? Upgrade it!"
 			]
 			id: "532229D285CA4858"
-			rewards: [
-				{
-					id: "1DE253380778110D"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6CBB8BCE2C0E0AF6"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CBB8BCE2C0E0AF6"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			shape: "hexagon"
 			subtitle: "Importing Items!"
 			tasks: [{
@@ -326,18 +268,12 @@
 				"You can also set it to whitelist blocks, which is useful for automating certain processes, like making casings in Create."
 			]
 			id: "6092490EC9008A05"
-			rewards: [
-				{
-					id: "706F07A4768DE9FA"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5BF4908D474B510E"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BF4908D474B510E"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			shape: "hexagon"
 			subtitle: "Breaking Blocks!"
 			tasks: [{
@@ -356,18 +292,12 @@
 				"You can designate the block within the GUI. This is useful for automation!"
 			]
 			id: "2CFEE04BA574921E"
-			rewards: [
-				{
-					id: "3CDBEEDBD20A61DE"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "60EC5A042BC57AA6"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60EC5A042BC57AA6"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			shape: "hexagon"
 			subtitle: "Placing Blocks!"
 			tasks: [{
@@ -388,18 +318,12 @@
 				"You can also filter what items are pushed. Need more filter slots? Upgrade it!"
 			]
 			id: "4CD83943865018EA"
-			rewards: [
-				{
-					id: "40C3EDC23E165575"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "53CB476A8CCDAFDB"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53CB476A8CCDAFDB"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			shape: "hexagon"
 			subtitle: "Exporting Items!"
 			tasks: [{
@@ -415,10 +339,6 @@
 			description: ["The 64k Fluid Storage Part is used to craft the 64k Fluid Storage Disk."]
 			id: "4B81E84CAE814BA9"
 			rewards: [
-				{
-					id: "2DAA28CC2526657D"
-					type: "random"
-				}
 				{
 					exclude_from_claim_all: true
 					id: "7EDCB21990E8173A"
@@ -447,10 +367,6 @@
 			id: "39C8E1705EF1CD31"
 			rewards: [
 				{
-					id: "2F50B3D8AFF81B1E"
-					type: "random"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "104C1CAA8A477A03"
 					table_id: 4001436279668650237L
@@ -478,10 +394,6 @@
 			id: "60244F26B9ABED49"
 			rewards: [
 				{
-					id: "5A3901DB229F523B"
-					type: "random"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "20924E519F08B291"
 					table_id: 4001436279668650237L
@@ -508,10 +420,6 @@
 			description: ["The 4096k Fluid Storage Part is used to craft the 4096k Fluid Storage Disk."]
 			id: "3751015CD5C84134"
 			rewards: [
-				{
-					id: "1BF095899A5270F5"
-					type: "random"
-				}
 				{
 					exclude_from_claim_all: true
 					id: "5C140FB3E63AE5AC"
@@ -547,18 +455,12 @@
 			]
 			id: "253657BE5D9D9162"
 			min_width: 300
-			rewards: [
-				{
-					id: "33EE37E408A14D2A"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "44F8DDDED96D82C7"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44F8DDDED96D82C7"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "4D9E7CCF420BDE8C"
@@ -587,14 +489,6 @@
 					type: "item"
 				}
 				{
-					id: "604536C15104A0C8"
-					type: "random"
-				}
-				{
-					id: "5426A98A63199515"
-					type: "random"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "2BC4BBA8585369B0"
 					table_id: 4001436279668650237L
@@ -618,22 +512,12 @@
 				"To access the system, you'll need to create a &9Grid&r. The Grid is the most basic form of \"Display\" for the items in your inventory."
 			]
 			id: "43E8912CB307E421"
-			rewards: [
-				{
-					id: "673FBE94CC27445E"
-					type: "random"
-				}
-				{
-					id: "0E35D05AA810F2C0"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1D6E190872128458"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D6E190872128458"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 1.25d
 			tasks: [{
@@ -653,22 +537,12 @@
 				"Let's be honest, no one just uses regular Grids."
 			]
 			id: "0F00BBDF3618B3BA"
-			rewards: [
-				{
-					id: "41A66CDD13A10EFB"
-					type: "random"
-				}
-				{
-					id: "53189DA11AA43777"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "798F26A93E1B5FF4"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "798F26A93E1B5FF4"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "5B74E6CB7AB75F92"
@@ -691,18 +565,12 @@
 			]
 			id: "65C8A43FEDBA3835"
 			min_width: 300
-			rewards: [
-				{
-					id: "3FAE50501AEA16E9"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3CB715C9EC41F91F"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CB715C9EC41F91F"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "79E70744DBC24777"
@@ -720,22 +588,12 @@
 				"Pro Tip: If you want to store gases from Mekanism, see if you can turn it into a liquid first using a Rotary Condensentrator. "
 			]
 			id: "51E9D03CD755A607"
-			rewards: [
-				{
-					id: "663DB8F9C5006DA9"
-					type: "random"
-				}
-				{
-					id: "62DB4906D15A4AA4"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5FD2FBE24F9E9084"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FD2FBE24F9E9084"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "4EAE7D47133842B1"
@@ -749,22 +607,12 @@
 			dependencies: ["6B04FC81351CD1AB"]
 			description: ["Allows you to access your storage wirelessly."]
 			id: "15ECBC8E174FA39B"
-			rewards: [
-				{
-					id: "73C96DD0654FF5CE"
-					type: "random"
-				}
-				{
-					id: "627DFE6503A864D9"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6523985E96BF8419"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6523985E96BF8419"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1488D961F51ED182"
@@ -778,22 +626,12 @@
 			dependencies: ["6B04FC81351CD1AB"]
 			description: ["Allows you to access your fluid grid wirelessly."]
 			id: "7FA85713C86166DA"
-			rewards: [
-				{
-					id: "598120E2B2A936E9"
-					type: "random"
-				}
-				{
-					id: "5E65E7082749DB48"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "429A530FDFE0E60E"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "429A530FDFE0E60E"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "77FE4FDC2F752084"
@@ -807,22 +645,12 @@
 			dependencies: ["6B04FC81351CD1AB"]
 			description: ["Allows you to access your grid wirelessly but with a crafting table built-in."]
 			id: "744842B2AED28344"
-			rewards: [
-				{
-					id: "6B5DF00E7050694D"
-					type: "random"
-				}
-				{
-					id: "553AC9C05E0564EA"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0646D0858D70F4D2"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0646D0858D70F4D2"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "5C72FB6EFDAF0813"
@@ -839,18 +667,12 @@
 			hide_dependency_lines: false
 			id: "66D85424EC74EDCC"
 			optional: true
-			rewards: [
-				{
-					id: "2977A7581BEC6C48"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "35961ED2819A0EA9"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35961ED2819A0EA9"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			shape: "diamond"
 			subtitle: "On-The-Go Grid"
 			tasks: [{
@@ -873,22 +695,12 @@
 				"These have 8 slots for Storage Drives. "
 			]
 			id: "12A43F82FC67A289"
-			rewards: [
-				{
-					id: "4657EF2161AC3ADD"
-					type: "random"
-				}
-				{
-					id: "0B750449B490A597"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "01889484D4243C6C"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01889484D4243C6C"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 1.25d
 			subtitle: "Floppy time!"
@@ -905,18 +717,12 @@
 			dependencies: ["12A43F82FC67A289"]
 			description: ["Allows you to take items and fluids from one disk into another grid's disks."]
 			id: "4844DEF57A2287B4"
-			rewards: [
-				{
-					id: "70D006DD94C36966"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "79B69D238164F62A"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79B69D238164F62A"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "057EA89AE615DA6D"
@@ -931,10 +737,6 @@
 			description: ["&9Patterns&r are the bread and butter of autocrafting. These store recipes to let your RS network know how to craft items."]
 			id: "59F5ED931FD70C55"
 			rewards: [
-				{
-					id: "1FA71DB84EE6B7D8"
-					type: "random"
-				}
 				{
 					count: 8
 					id: "4348758E87B788AE"
@@ -971,10 +773,6 @@
 					xp: 100
 				}
 				{
-					id: "1491EF64254BB838"
-					type: "random"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "41571C4D08372D8C"
 					table_id: 4001436279668650237L
@@ -1000,18 +798,12 @@
 			]
 			hide_dependency_lines: false
 			id: "6B04FC81351CD1AB"
-			rewards: [
-				{
-					id: "5050A99AB9DA31EE"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0C85407BDEB118BF"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C85407BDEB118BF"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			shape: "hexagon"
 			subtitle: "Storage, at a distance"
 			tasks: [{
@@ -1033,22 +825,12 @@
 				"This, however, does not extend to other dimensions....."
 			]
 			id: "3E0D29502690E02F"
-			rewards: [
-				{
-					id: "020CFD2156077264"
-					type: "random"
-				}
-				{
-					id: "51EB8245F9BF2EBB"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6D7144141233579F"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D7144141233579F"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "4DD51C8F38808EB9"
@@ -1068,22 +850,12 @@
 			]
 			id: "7604D8B3C9FCCFD9"
 			min_width: 300
-			rewards: [
-				{
-					id: "2A14130CAC3461EA"
-					type: "random"
-				}
-				{
-					id: "6116F11EC66ADB9D"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "408FBCCC096872A2"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "408FBCCC096872A2"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "546B04909ABE8383"
@@ -1113,14 +885,6 @@
 					id: "7D644616E6416286"
 					item: "refinedstorage:network_card"
 					type: "item"
-				}
-				{
-					id: "7D1DCEA1DB748856"
-					type: "random"
-				}
-				{
-					id: "7321631CFD0F9E9D"
-					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
@@ -1164,10 +928,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "2757EAF400D978C1"
-					type: "random"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "204D3EE399341C34"
 					table_id: 4001436279668650237L
@@ -1200,18 +960,12 @@
 			id: "787415570026FFAA"
 			min_width: 300
 			optional: true
-			rewards: [
-				{
-					id: "0EB941B66B8E55EB"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6AD215603D429893"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6AD215603D429893"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1239,10 +993,6 @@
 			]
 			id: "2B27E4E04A628C60"
 			rewards: [
-				{
-					id: "10EE1EA9372509F0"
-					type: "random"
-				}
 				{
 					id: "4B859F9679182D36"
 					item: "refinedstorage:speed_upgrade"
@@ -1277,18 +1027,12 @@
 			description: ["The &9Filter&r is an item used in a Grid to specify which items or fluids can be visible."]
 			id: "35EC08D610382860"
 			optional: true
-			rewards: [
-				{
-					id: "1361E62DF27B02EE"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2B694DF84F2AB7DD"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B694DF84F2AB7DD"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5BFCB4F5C8CCA8C9"
 				item: "refinedstorage:filter"
@@ -1310,10 +1054,6 @@
 					id: "56D7CD357A4D790B"
 					item: "refinedstorage:range_upgrade"
 					type: "item"
-				}
-				{
-					id: "3A61D12F2542D63D"
-					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
@@ -1341,22 +1081,12 @@
 				"This allows your RS system to be accessed wirelessly from any dimension."
 			]
 			id: "3EE9958D84A1252C"
-			rewards: [
-				{
-					id: "6E00F9CDE957D741"
-					type: "random"
-				}
-				{
-					id: "07BCC4BCD1A84D6E"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0E341A9B25036D45"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E341A9B25036D45"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "19BBDF4958C7FD63"
@@ -1390,10 +1120,6 @@
 					type: "item"
 				}
 				{
-					id: "3D7CA9D37CFD6B43"
-					type: "random"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "4DC9361C98BBE13C"
 					table_id: 4001436279668650237L
@@ -1424,22 +1150,12 @@
 				"You'll need one of these if you want to be able to cancel crafts that aren't working or are bugged. "
 			]
 			id: "7044EAB5EDF32BBC"
-			rewards: [
-				{
-					id: "70D5957342CD81E6"
-					type: "random"
-				}
-				{
-					id: "566184EFEA58D66A"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2375FD91C9A4E617"
-					table_id: 4001436279668650237L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2375FD91C9A4E617"
+				table_id: 4001436279668650237L
+				type: "random"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "79FEA8AA18E5ED45"

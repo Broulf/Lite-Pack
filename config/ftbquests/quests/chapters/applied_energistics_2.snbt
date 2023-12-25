@@ -100,17 +100,11 @@
 				"The &bInscriber&f can be used to turn the various quartz crystals in AE2 into their dust form, but more importantly is used to fabricate special &ePrinted Circuits&f and &eProcessors&f, as will become clearer in the next quest."
 			]
 			id: "68B0B3DAF1145191"
-			rewards: [
-				{
-					id: "132524D80F352F06"
-					type: "random"
-				}
-				{
-					id: "230CB9AC06A29B7A"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "230CB9AC06A29B7A"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Some basic machines"
 			tasks: [
 				{
@@ -147,10 +141,6 @@
 					type: "item"
 				}
 				{
-					id: "34DBB0E01FC07555"
-					type: "random"
-				}
-				{
 					id: "53D03CFF7586058B"
 					type: "xp"
 					xp: 100
@@ -181,17 +171,11 @@
 				"RF/FE can be converted into the native AE at a ratio of 2:1 RF:AE, either directly through an ME Controller, or through the &bEnergy Acceptor&f, which can instead be connected to any part of the network."
 			]
 			id: "00611844AFD5C31E"
-			rewards: [
-				{
-					id: "218200BE2C9DD409"
-					type: "random"
-				}
-				{
-					id: "241ED08CDD530739"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "241ED08CDD530739"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Plug in"
 			tasks: [{
 				id: "5B4DDF66C36AF356"
@@ -209,17 +193,11 @@
 				"The &bEnergy Cell&f allows for an ME network to hold significantly more energy, adding another 200kAE per regular Energy Cell and 1.6MAE per &bDense&f Energy Cell. These can also be placed anywhere in the network to provide the increased energy buffer."
 			]
 			id: "037488EF1F3581CE"
-			rewards: [
-				{
-					id: "07AC6981E4FBB7B3"
-					type: "random"
-				}
-				{
-					id: "20DA7014A7644F65"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "20DA7014A7644F65"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "19CE95EDCB04AA89"
@@ -247,17 +225,11 @@
 			dependencies: ["037488EF1F3581CE"]
 			description: ["The &bEnergy Card&f can be applied to most chargeable devices like Portable Cells and Wireless Terminals (covered later) to also increase &otheir&r energy buffer."]
 			id: "6D54B45CDA70FEAB"
-			rewards: [
-				{
-					id: "4807A39C56865642"
-					type: "random"
-				}
-				{
-					id: "198B5EB3662F4C18"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "198B5EB3662F4C18"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "42C1EB9094F67B62"
@@ -271,17 +243,11 @@
 			dependencies: ["51236544BFEF487B"]
 			description: ["Once you have obtained a full set of the required &eInscriber Presses&r, it's time to start making some &eProcessors&f. These are an important crafting ingredient used to make the large majority of ME-connected devices."]
 			id: "15564C11744D6AA0"
-			rewards: [
-				{
-					id: "6F428D141799FF83"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "622636484932AB15"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "6F428D141799FF83"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "2B6D34E0CD1999C9"
@@ -320,10 +286,6 @@
 					type: "item"
 				}
 				{
-					id: "6F34DE4A8A1E9829"
-					type: "random"
-				}
-				{
 					id: "34AA471D42A56F02"
 					type: "xp"
 					xp: 10
@@ -356,17 +318,11 @@
 			]
 			id: "5C22E3103544B120"
 			min_width: 300
-			rewards: [
-				{
-					id: "23EF97F2F01671B6"
-					type: "random"
-				}
-				{
-					id: "2D1445E4299E8619"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "2D1445E4299E8619"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [
 				{
 					id: "40A7CC56DACC2623"
@@ -414,10 +370,6 @@
 			description: ["The &bME Smart Cable&f and &bDense Smart Cable&f function identically to the covered cables in terms of channel distribution, but will also visibly display the amount of channels they are using as coloured lines along themselves."]
 			id: "5233A447BAA4593C"
 			rewards: [
-				{
-					id: "7493EF469CDF6FB6"
-					type: "random"
-				}
 				{
 					id: "7F6B396987F63DB7"
 					type: "xp"
@@ -512,17 +464,11 @@
 				"The &bME Drive&f can hold up to 10 assorted Storage Cells in the space of a single block and a single ME channel. However, it does not provide its own terminal screen, requiring some external terminal elsewhere on the network for storage access."
 			]
 			id: "4E8A05C3BFA80540"
-			rewards: [
-				{
-					id: "107B36337206758B"
-					type: "random"
-				}
-				{
-					id: "5D0CC7AC4BD78134"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "5D0CC7AC4BD78134"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Items as a file system"
@@ -553,17 +499,11 @@
 			]
 			icon: "ae2:interface"
 			id: "74FC0DDDB91DB172"
-			rewards: [
-				{
-					id: "12DC218C9BBC8422"
-					type: "random"
-				}
-				{
-					id: "341F5229D281635E"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "341F5229D281635E"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "OI, OI, OI!"
@@ -594,17 +534,11 @@
 			]
 			icon: "ae2:pattern_provider"
 			id: "51DE3157DE3E57B8"
-			rewards: [
-				{
-					id: "50D0A08E66B3F6DF"
-					type: "random"
-				}
-				{
-					id: "12405240582D9D1A"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "12405240582D9D1A"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Order up"
@@ -646,17 +580,11 @@
 				"An ME Network may only contain one multiblock controller at any given time. Attempting to connect more than one controller on separate parts of the network will cause a conflict, shutting down the whole network."
 			]
 			id: "2F16B6A173525277"
-			rewards: [
-				{
-					id: "345C7C78BABD07F6"
-					type: "random"
-				}
-				{
-					id: "6593BF772EE96538"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "6593BF772EE96538"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6C80AA2FD67BD192"
 				item: "ae2:controller"
@@ -724,17 +652,11 @@
 				"Create the 1k Component, which will be combined with housing in the next quest."
 			]
 			id: "2FB231069D2E4E77"
-			rewards: [
-				{
-					id: "6E23A177701DE35C"
-					type: "random"
-				}
-				{
-					id: "7878EA4ADE367154"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "7878EA4ADE367154"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			subtitle: "The first kilobyte."
 			tasks: [{
@@ -753,17 +675,11 @@
 			]
 			description: ["The second tier of storage component, providing &e4096&f bytes of storage."]
 			id: "3B42CCC19D23EC6D"
-			rewards: [
-				{
-					id: "0DED7909D8F260FB"
-					type: "random"
-				}
-				{
-					id: "4D1AC818C4203ADC"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "4D1AC818C4203ADC"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			subtitle: "x4"
 			tasks: [{
@@ -782,17 +698,11 @@
 			]
 			description: ["The third tier of storage component, providing &e16384&f bytes of storage."]
 			id: "219932CB19258C16"
-			rewards: [
-				{
-					id: "3D78D39AC9F9149F"
-					type: "random"
-				}
-				{
-					id: "42CEB9C64CCDCFEC"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "42CEB9C64CCDCFEC"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			subtitle: "x4^2"
 			tasks: [{
@@ -811,17 +721,11 @@
 			]
 			description: ["The fourth tier of storage component, providing &e65536&f bytes of storage."]
 			id: "523853C1C4E688BA"
-			rewards: [
-				{
-					id: "74692DCB87938B3B"
-					type: "random"
-				}
-				{
-					id: "16FC3AB2ACBFF4B3"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "16FC3AB2ACBFF4B3"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			subtitle: "x4^3"
 			tasks: [{
@@ -840,17 +744,11 @@
 			]
 			description: ["The fifth and final AE2-standard tier of storage component, providing &e262144&f bytes of storage."]
 			id: "5F56892CD904C40F"
-			rewards: [
-				{
-					id: "109149BBD22105C5"
-					type: "random"
-				}
-				{
-					id: "4DE1354173902859"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "4DE1354173902859"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			subtitle: "x4^4"
 			tasks: [{
@@ -873,21 +771,11 @@
 				"This is where the &dMEGA Cells&f add-on comes in, extending the available tiers of storage into the megabyte territory. The first of these new tiers is given by the &b1M MEGA Storage Component&f, providing 1024 &okilo&rbytes, or &e1048576&f bytes, of storage."
 			]
 			id: "460A8F17F3ED6CAF"
-			rewards: [
-				{
-					id: "006EED7533375FD2"
-					type: "random"
-				}
-				{
-					id: "3C8B767128199FB7"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "295E028CA7E21B31"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "3C8B767128199FB7"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "The first MEGAbyte."
@@ -907,17 +795,11 @@
 			]
 			description: ["The second MEGA tier of storage component, providing &e4194304&f (4096k) bytes of storage."]
 			id: "25DBA00422301EDC"
-			rewards: [
-				{
-					id: "5696B9C3D424839F"
-					type: "random"
-				}
-				{
-					id: "71734366561CE3E6"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "71734366561CE3E6"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "32340AD4F677375F"
@@ -935,17 +817,11 @@
 			]
 			description: ["The third MEGA tier of storage component, providing &e16777216&f (16384k) bytes of storage."]
 			id: "0E809747193ED3A9"
-			rewards: [
-				{
-					id: "2083392434D82627"
-					type: "random"
-				}
-				{
-					id: "61A6C4D61B2B0E98"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "61A6C4D61B2B0E98"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "76A0C582AECC4702"
@@ -963,17 +839,11 @@
 			]
 			description: ["The fourth MEGA tier of storage component, providing &e67108864&f (65536k) bytes of storage."]
 			id: "3CE3D9245F8EC005"
-			rewards: [
-				{
-					id: "4637E22B312275B1"
-					type: "random"
-				}
-				{
-					id: "591679B6C9CF5681"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "591679B6C9CF5681"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "50CD83AC904EC47E"
@@ -991,17 +861,11 @@
 			]
 			description: ["The fifth and final MEGA tier of storage component, providing &e268435456&f (262144k) bytes of storage."]
 			id: "51A57E142C686C8F"
-			rewards: [
-				{
-					id: "3F61E69AB87C08FF"
-					type: "random"
-				}
-				{
-					id: "6871321BB014C03D"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "6871321BB014C03D"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "0D5DA83B0C0665C8"
@@ -1025,10 +889,6 @@
 			]
 			id: "361CCBD353D6FF34"
 			rewards: [
-				{
-					id: "402B607EA6D67580"
-					type: "random"
-				}
 				{
 					id: "318D3CF0DD1E3A58"
 					type: "xp"
@@ -1065,17 +925,11 @@
 				"For fluids, 1 byte equals 8 buckets (8000mb)."
 			]
 			id: "5E24012A3D9B72A1"
-			rewards: [
-				{
-					id: "1AB0AE41CCA6C48E"
-					type: "random"
-				}
-				{
-					id: "687E190D01E7344A"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "687E190D01E7344A"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "61D93B13D496547D"
@@ -1101,17 +955,11 @@
 				"Cells can also be given a higher or lower \"priority\" via the workbench, i.e. allow the cell to be the first to receive certain items until full, or made to wait for other higher-priority cells to fill up first."
 			]
 			id: "2F556E7919582D2D"
-			rewards: [
-				{
-					id: "60C2464FFC06FB37"
-					type: "random"
-				}
-				{
-					id: "4956E92D2FDA5190"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "4956E92D2FDA5190"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "19F84B1451F7D602"
@@ -1129,17 +977,11 @@
 				"When a cell is inserted in an input slot on the left, the IO Port can be toggled to either empty the cell out into other ME storages or fill the (ideally, partitioned) cell with certain items spread out across other storages."
 			]
 			id: "7B7D1F0CB326B28F"
-			rewards: [
-				{
-					id: "32864F0FE8996DE8"
-					type: "random"
-				}
-				{
-					id: "4531F48DEB750518"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "4531F48DEB750518"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "rsquare"
 			subtitle: "Defragmentation"
 			tasks: [{
@@ -1154,17 +996,11 @@
 			dependencies: ["74FC0DDDB91DB172"]
 			description: ["The &bME Import Bus&f periodically sucks items in from whatever external storage the bus is facing. It can optionally be filtered to only take in certain items from said inventory."]
 			id: "5E7E35CCAF1C88EE"
-			rewards: [
-				{
-					id: "6F34C1E65B9B9204"
-					type: "random"
-				}
-				{
-					id: "462A0C71B591C11F"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "462A0C71B591C11F"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "rsquare"
 			subtitle: "The I"
 			tasks: [{
@@ -1179,17 +1015,11 @@
 			dependencies: ["74FC0DDDB91DB172"]
 			description: ["The &bME Export Bus&f periodically spits items in its whitelist filter out to whatever external storage the bus is facing. Unlike the Import Bus, the Export Bus cannot work without being filtered."]
 			id: "083D458032F0325C"
-			rewards: [
-				{
-					id: "0F7B866B6B54A6D2"
-					type: "random"
-				}
-				{
-					id: "311337C7850C46F1"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "311337C7850C46F1"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "rsquare"
 			subtitle: "The O"
 			tasks: [{
@@ -1210,17 +1040,11 @@
 				"Any added enchantments significantly increase the amount of energy used by the plane every time a block is broken. Enchanting the plane with &eEfficiency&f will decrease the overall energy use incurred by all other enchantments, while the &eUnbreaking&f enchantment gives the plane the chance to only use any energy sometimes, similarly to Unbreaking on regular tools."
 			]
 			id: "140DE53DC0FCD9F4"
-			rewards: [
-				{
-					id: "6EA69EB703D93D1F"
-					type: "random"
-				}
-				{
-					id: "43B0C50B9F25E213"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "43B0C50B9F25E213"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "rsquare"
 			subtitle: "GET IN"
 			tasks: [{
@@ -1239,17 +1063,11 @@
 				"This can be useful for situations where a block can be processed simply by placing it and breaking it with a certain tool."
 			]
 			id: "525F25F4ADE45B50"
-			rewards: [
-				{
-					id: "0850790D93DB56E2"
-					type: "random"
-				}
-				{
-					id: "4DA3D1592D0E57DA"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "4DA3D1592D0E57DA"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "rsquare"
 			subtitle: "GET OUT"
 			tasks: [{
@@ -1270,17 +1088,11 @@
 				"P2P tunnels must be linked to one another with the use of a &eMemory Card&f, detailed in the next quest."
 			]
 			id: "1710B3D05215A71E"
-			rewards: [
-				{
-					id: "005990362F9FDD61"
-					type: "random"
-				}
-				{
-					id: "682CBB4D63EC2625"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "682CBB4D63EC2625"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "rsquare"
 			subtitle: "Cut out the middleman"
 			tasks: [{
@@ -1300,17 +1112,11 @@
 				"Storage buses can be filtered and given specific priorities such that specific items will try to go to the attached storage first, however it will not retroactively move any filtered items from anywhere else in the network to its attached storage."
 			]
 			id: "7EFBAF3E281D2EBE"
-			rewards: [
-				{
-					id: "7EC06E5DA9EA41BC"
-					type: "random"
-				}
-				{
-					id: "74C059194CC4F45D"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "74C059194CC4F45D"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "rsquare"
 			subtitle: "The spare chest"
 			tasks: [{
@@ -1329,17 +1135,11 @@
 				"The second function of a memory card is to link &eP2P tunnels&f together. When doing so, the P2P tunnel being linked will be assigned a unique ID, which is stored on the memory card for further linking."
 			]
 			id: "55186B8602689B66"
-			rewards: [
-				{
-					id: "433DCE2CD821C784"
-					type: "random"
-				}
-				{
-					id: "58A650BEBD72CCDB"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "58A650BEBD72CCDB"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "2D19A4EF2E4B7A55"
@@ -1362,17 +1162,11 @@
 				"This behaviour is comparable to something like a Functional Storage drawer, wherein each compartment holds a set number of stacks as opposed to allowing items from one compartment to leak into the others and crowd other kinds of items out."
 			]
 			id: "3195A7AA874163CD"
-			rewards: [
-				{
-					id: "70C47DA0DCEA52BB"
-					type: "random"
-				}
-				{
-					id: "7425BEBDF51C1684"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "7425BEBDF51C1684"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "circle"
 			subtitle: "ME Storage &mCells&r Drawers"
 			tasks: [{
@@ -1387,17 +1181,11 @@
 			dependencies: ["2F556E7919582D2D"]
 			description: ["The &bOverflow Destruction Card&f is a cell upgrade that allows storage cells to delete (void) any items of a type already contained within them when trying to move into the cell and the cell is already full."]
 			id: "33ADE41526C39AFD"
-			rewards: [
-				{
-					id: "7FDED9CF7F39532F"
-					type: "random"
-				}
-				{
-					id: "48C92D1EB16C0CA2"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "48C92D1EB16C0CA2"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "2D72E699C4D506CE"
@@ -1415,17 +1203,11 @@
 				"However, unlike regular cells, their contents can also be accessed standalone via the cell item itself, a bit like a digital ME-flavoured backpack."
 			]
 			id: "77C9EE701F72586D"
-			rewards: [
-				{
-					id: "6A5F5E6ABCD405F1"
-					type: "random"
-				}
-				{
-					id: "3280EFC4446DD684"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "3280EFC4446DD684"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "65C439FD14C5EEB9"
 				item: {
@@ -1445,17 +1227,11 @@
 			dependencies: ["7EFBAF3E281D2EBE"]
 			description: ["The &bCapacity Card&f allows a bus upgraded with it to carry a larger filter. Import and Export buses upgraded with capacity cards can go from supporting only one filtered item each to their maximum nine-slot filter, while Storage buses will go from 18 slots to a maximum of 63."]
 			id: "371A382CF1DDF2B2"
-			rewards: [
-				{
-					id: "370E5557C95C8C9D"
-					type: "random"
-				}
-				{
-					id: "45FEE3C549C049B0"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "45FEE3C549C049B0"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "6DC55B5EA1534444"
@@ -1475,17 +1251,11 @@
 				"Thus, a subnetwork on the other side of the Fiber can be powered wholly by the main network's power source, without requiring any extra dedicated powergen."
 			]
 			id: "2077D64428E9C067"
-			rewards: [
-				{
-					id: "165710BE640551ED"
-					type: "random"
-				}
-				{
-					id: "3337CC6EF03730C7"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "3337CC6EF03730C7"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "rsquare"
 			subtitle: "This has a use outside of crafting cables."
 			tasks: [{
@@ -1512,10 +1282,6 @@
 					id: "7E23E751506B04D0"
 					item: "ae2:blank_pattern"
 					type: "item"
-				}
-				{
-					id: "0741594A950C662F"
-					type: "random"
 				}
 				{
 					id: "20EB24D02799A27D"
@@ -1550,17 +1316,11 @@
 				"MAs also each have their own dedicated slot for a single crafting pattern, allowing them to function standalone when powered. When operated in this way, any matching items inserted into the MA will be automatically crafted into the result of the pattern."
 			]
 			id: "4597D3B3BDC2BED5"
-			rewards: [
-				{
-					id: "48E60A68CD703710"
-					type: "random"
-				}
-				{
-					id: "59D9A5E482B1D2A6"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "59D9A5E482B1D2A6"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "5639418C0364E5A1"
@@ -1578,17 +1338,11 @@
 				"This can be used, for example, to automatically switch certain machines on with redstone to auto-craft a resource when it falls below a given minimum amount."
 			]
 			id: "3DDB0DDA7571B2C1"
-			rewards: [
-				{
-					id: "7791DE05E46C6030"
-					type: "random"
-				}
-				{
-					id: "2465F9C03BFFB3B8"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "2465F9C03BFFB3B8"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "3E4BDC8D3B7F727C"
@@ -1606,17 +1360,11 @@
 				"This behavior can also apply to entire &osections&r of an ME network by using an &bME Toggle Bus&f. This allows a section of the network on the other side of the bus to come online only when the bus is powered by redstone, or to go offline if using an &einverted&f toggle bus."
 			]
 			id: "1AAF0B31B47AF23D"
-			rewards: [
-				{
-					id: "15D28C974906C579"
-					type: "random"
-				}
-				{
-					id: "11376476D428D86A"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "11376476D428D86A"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "circle"
 			tasks: [
 				{
@@ -1642,17 +1390,11 @@
 				"When the &eLevel Emitter&f is upgraded with the Crafting Card, it can be configured to emit redstone in order to directly facilitate in crafting, by emitting a signal either &owhile&r a crafting job for its given item is detected or specifically &oto&r craft the item. The latter would apply for cases where the only thing needed to make a given item is a redstone signal, without even requiring a crafting pattern."
 			]
 			id: "5E6585F7627247E3"
-			rewards: [
-				{
-					id: "24B873E672174D86"
-					type: "random"
-				}
-				{
-					id: "09DCAA3326CEE78F"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "09DCAA3326CEE78F"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "circle"
 			subtitle: "Automation in upgrade form!"
 			tasks: [{
@@ -1671,17 +1413,11 @@
 				"Place these around your Budding Crystals, give them some power, and watch your crystals grow!"
 			]
 			id: "5AA3E5DFECB4AC4D"
-			rewards: [
-				{
-					id: "0BE24B3629BD5016"
-					type: "random"
-				}
-				{
-					id: "67FE782D7A821701"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "67FE782D7A821701"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "3837D36BE3CC29A6"
 				item: "ae2:growth_accelerator"
@@ -1698,17 +1434,11 @@
 				"In the case of the &eMolecular Assembler&f, a full set of 5 cards reduces the time taken for the MA to fulfil a craft from one second (with no cards) to one &otick&r."
 			]
 			id: "1F7DFA5AA65F2812"
-			rewards: [
-				{
-					id: "6223D6D4A01B9122"
-					type: "random"
-				}
-				{
-					id: "394DBCEAD38760C0"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "394DBCEAD38760C0"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "495253F1301A8070"
@@ -1728,17 +1458,11 @@
 				"If a mob or player happens to stand inside of the SCS while the space is being captured, they too will be transported to where the rest of the space goes, i.e. in a dedicated dimension. Just make sure you have a way to get back out and in if you're the one being captured."
 			]
 			id: "01F3F0C25BA72BDA"
-			rewards: [
-				{
-					id: "2AB07DF6AB7560BF"
-					type: "random"
-				}
-				{
-					id: "71A9F7793267D5CD"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "71A9F7793267D5CD"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -1760,17 +1484,11 @@
 				"Also, be mindful that each individual pylon (regardless of its length) takes up one channel. For particularly large spaces, you may wish to build a dedicated network with a controller to fit all the required pylons."
 			]
 			id: "18DFB25DC48D8BF7"
-			rewards: [
-				{
-					id: "664A4B1C34FC382C"
-					type: "random"
-				}
-				{
-					id: "60430373241A6839"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "60430373241A6839"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "4E0C5E3A98293C08"
 				item: "ae2:spatial_pylon"
@@ -1785,17 +1503,11 @@
 			dependencies: ["18DFB25DC48D8BF7"]
 			description: ["The &bSpatial Anchor&f is a companion device from the Spatial IO lineage that simply functions as a chunk loader. When connected to an ME network, the Anchor will force-load all the chunks occupied by the ME network across all cables and devices, excluding subnetworks, as long as the network remains powered."]
 			id: "2897FA291E5A38D8"
-			rewards: [
-				{
-					id: "1560015D5E8AFFEA"
-					type: "random"
-				}
-				{
-					id: "29737736E2B314EA"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "29737736E2B314EA"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "68A36AB341CC016D"
 				item: "ae2:spatial_anchor"
@@ -1814,17 +1526,11 @@
 				"From then on, any blocks contained either within the cell's region of space or in an SCS with the same size as the one used for the initial encoding can be moved back into the overworld or into the spatial dimension respectively. If there are blocks both within the spatial region and within the SCS, these will simply swap places accordingly."
 			]
 			id: "6F3D0A248B5A9CA2"
-			rewards: [
-				{
-					id: "40FB6290F9B4CF05"
-					type: "random"
-				}
-				{
-					id: "0CB125E5654F810B"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "0CB125E5654F810B"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "75924053D6F5B242"
 				item: {
@@ -1848,17 +1554,11 @@
 				"A crafting CPU is a multiblock structure requiring at least one &bCrafting Storage&f block, optionally along with any other Crafting Unit. The multiblock can be made in any size, but must be a solid cuboid in order to form and function accordingly."
 			]
 			id: "30E853CE699E669B"
-			rewards: [
-				{
-					id: "380CA842CF1F8374"
-					type: "random"
-				}
-				{
-					id: "57230DB26A88BF90"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "57230DB26A88BF90"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "rsquare"
 			subtitle: "Download more RAM"
 			tasks: [{
@@ -1884,17 +1584,11 @@
 				"The base AE2 co-processor provides one co-processor \"thread\" to assist this, while the co-processing unit from &dMEGA Cells&f provides 4 threads in a single such block."
 			]
 			id: "69B7DE2283B4EE6C"
-			rewards: [
-				{
-					id: "30447C55F39E6DA1"
-					type: "random"
-				}
-				{
-					id: "33A5EAC376E2828C"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "33A5EAC376E2828C"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "rsquare"
 			subtitle: "Download more CPU cores"
 			tasks: [{
@@ -1920,17 +1614,11 @@
 				"Both the base AE2 monitor and the MEGA monitor function identically, but are provided for aesthetic purposes."
 			]
 			id: "1348995F64A94396"
-			rewards: [
-				{
-					id: "67F817808F544C51"
-					type: "random"
-				}
-				{
-					id: "77A6ACEA6F5542AF"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "77A6ACEA6F5542AF"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "rsquare"
 			subtitle: "Download more VRAM"
 			tasks: [{
@@ -1962,17 +1650,11 @@
 			icon: "ae2:cable_anchor"
 			id: "6144202A97C6CD1C"
 			min_width: 300
-			rewards: [
-				{
-					id: "4330FAC592266D62"
-					type: "random"
-				}
-				{
-					id: "0BAC4AB615750E48"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "0BAC4AB615750E48"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			subtitle: "Under the knife"
 			tasks: [
@@ -2019,17 +1701,11 @@
 				"Applying colour to a cable uses 100AE of energy from its internal battery, for a total of 3400 cable segments in a single charge."
 			]
 			id: "03E6FA4DCB71162E"
-			rewards: [
-				{
-					id: "72469A8B94967668"
-					type: "random"
-				}
-				{
-					id: "2AD4CA497DAF5DDE"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "2AD4CA497DAF5DDE"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "6691176371563341"
@@ -2062,17 +1738,11 @@
 			]
 			hide_dependency_lines: true
 			id: "5CD8D169181C7339"
-			rewards: [
-				{
-					id: "653C5DBC5B2DFB83"
-					type: "random"
-				}
-				{
-					id: "79695D39F0DA9907"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "79695D39F0DA9907"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "square"
 			subtitle: "Too hot for the ATF"
 			tasks: [
@@ -2105,17 +1775,11 @@
 			description: ["The next thing to make to allow for wireless network access is the &bME Wireless Access Point&f. The Access Point is used to open the network to wireless access via a &ewireless terminal&f, and has a set (finite) range depending on how many &bWireless Boosters&f are inserted into the access point."]
 			hide_dependency_lines: true
 			id: "2B31E6C1707D8195"
-			rewards: [
-				{
-					id: "72CFEEE18B84AC11"
-					type: "random"
-				}
-				{
-					id: "7C6512C24B5A19A3"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "7C6512C24B5A19A3"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -2143,17 +1807,11 @@
 			]
 			hide_dependency_lines: true
 			id: "5BB887411B8B38FA"
-			rewards: [
-				{
-					id: "3AF0C07815901F6E"
-					type: "random"
-				}
-				{
-					id: "0F9CCE69ADAF459C"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "0F9CCE69ADAF459C"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -2181,17 +1839,11 @@
 				"Wireless terminals can also be upgraded with &eEnergy Cards&f to provide a larger internal battery."
 			]
 			id: "16299B9AE87257DC"
-			rewards: [
-				{
-					id: "7C69F2A048685089"
-					type: "random"
-				}
-				{
-					id: "3A1C068ABC13E7EE"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "3A1C068ABC13E7EE"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "rsquare"
 			subtitle: "This is what you're here for"
 			tasks: [
@@ -2213,17 +1865,11 @@
 			dependencies: ["16299B9AE87257DC"]
 			description: ["The &dAEInfinityBooster&f add-on provides two bespoke wireless boosters allowing for infinite connectivity range, with optional cross-dimensional support."]
 			id: "234DC1702333EB18"
-			rewards: [
-				{
-					id: "166910739B51C0F9"
-					type: "random"
-				}
-				{
-					id: "6724FE14F1AF7CB1"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "6724FE14F1AF7CB1"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "I'm not writing the Toy Story line"
 			tasks: [
 				{
@@ -2250,17 +1896,11 @@
 			]
 			icon: "ae2:singularity"
 			id: "3E3DF8E967D95DB0"
-			rewards: [
-				{
-					id: "545E8CF0C43F9B5B"
-					type: "random"
-				}
-				{
-					id: "6C2DAC14419B90E4"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "6C2DAC14419B90E4"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "rsquare"
 			subtitle: "Not quite antimatter"
 			tasks: [
@@ -2288,17 +1928,11 @@
 			dependencies: ["371A382CF1DDF2B2"]
 			description: ["The &bFuzzy Card&f allows a filtered item to be matched regardless of any (NBT) metadata such as damage or enchantments, while the &bInverter Card&f toggles the filter on such buses from being a whitelist to being a blacklist."]
 			id: "6E15447FC3D678E0"
-			rewards: [
-				{
-					id: "6FF117C99E79959D"
-					type: "random"
-				}
-				{
-					id: "27958B72A4A4CD9E"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "27958B72A4A4CD9E"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "circle"
 			subtitle: "The remaining two IO cards"
 			tasks: [
@@ -2325,17 +1959,11 @@
 				"When two of these individual rings have been linked using the Quantum Entangled Singularities and jumpstarted with some AE power (e.g. an energy cell), an ME network can be expanded wirelessly on the other side of the bridge, across either long distances or even dimensions."
 			]
 			id: "0B218DD73FE8D985"
-			rewards: [
-				{
-					id: "202B598DA89EB6EA"
-					type: "random"
-				}
-				{
-					id: "25C4692C8D47D950"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "25C4692C8D47D950"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "rsquare"
 			tasks: [
 				{

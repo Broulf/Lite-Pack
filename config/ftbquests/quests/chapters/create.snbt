@@ -18,11 +18,19 @@
 				"If you have doubts about any blocks or items, hold W to ponder and see an amazing 3D in-game wiki!"
 			]
 			id: "57A7A5C79389A96A"
-			rewards: [{
-				id: "1E5B06A1884F3578"
-				item: "create:wrench"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1E5B06A1884F3578"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08A09767DE46A75A"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -38,12 +46,20 @@
 			dependencies: ["57A7A5C79389A96A"]
 			description: ["This will be the main ingredient for most of this mod's items and blocks."]
 			id: "0F16498769DFB3B0"
-			rewards: [{
-				count: 32
-				id: "50217BC8953EBD3E"
-				item: "minecraft:andesite"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "50217BC8953EBD3E"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A6BD9744F17FC2D"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
 			tasks: [{
 				count: 32L
 				id: "5D2B9139C49F5ABA"
@@ -57,6 +73,12 @@
 			dependencies: ["0F16498769DFB3B0"]
 			description: ["&n&5Shafts&r transfer rotational power without changing the speed of the gears."]
 			id: "5B36DE3826F26963"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30D766330AD9CE2C"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				count: 16L
 				id: "2F89C6C2CD322B51"
@@ -74,12 +96,20 @@
 				"Doubling speed will also double the stress in the system."
 			]
 			id: "3E5E0C768038CDF4"
-			rewards: [{
-				count: 8
-				id: "76537C95327D603D"
-				item: "create:cogwheel"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "76537C95327D603D"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6956DB33C7CFD68F"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
 			tasks: [{
 				count: 8L
 				id: "68F2BD699AADA753"
@@ -97,12 +127,20 @@
 				"Doubling speed will also double the stress in the system."
 			]
 			id: "23A9617F183C4EB1"
-			rewards: [{
-				count: 8
-				id: "01DCE2A5A57DAEC5"
-				item: "create:large_cogwheel"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "01DCE2A5A57DAEC5"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1769207C959BC59E"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
 			tasks: [{
 				count: 8L
 				id: "3E2A4428BDE92738"
@@ -120,11 +158,19 @@
 				"You can also change the appearance by using different Wooden Logs on them!"
 			]
 			id: "1AC0B7934F275EDE"
-			rewards: [{
-				id: "5118928E884676B3"
-				item: "create:water_wheel"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5118928E884676B3"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "620862F807099F95"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
 			tasks: [{
 				count: 3L
 				id: "35709DE2871F0CED"
@@ -138,6 +184,12 @@
 			dependencies: ["17885C2DE986F1BD"]
 			description: ["The &n&5Encased Fan&r is used to pull/push items and entities if you spin it. The arrow will show you the direction it's facing and the rotation direction will determine if it pushes or pulls."]
 			id: "1E9B2D814F50A265"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "502F738BE349CEF2"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1A4B96C7C821174E"
 				item: "create:encased_fan"
@@ -150,6 +202,12 @@
 			dependencies: ["17885C2DE986F1BD"]
 			description: ["The &n&5Gearbox&r can rotate the direction of the rotation in any direction by 90 degrees."]
 			id: "4285510271B5223D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FAE4F631C18DC2A"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1840DB80F48921E2"
 				item: "create:gearbox"
@@ -162,6 +220,12 @@
 			dependencies: ["17885C2DE986F1BD"]
 			description: ["The &n&5Clutch&r will stop any rotation if a redstone signal is applied."]
 			id: "2BB3DB19D5EFC7E2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C3EB3C1DD09F524"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "54F14BE619292D1D"
 				item: "create:clutch"
@@ -174,6 +238,12 @@
 			dependencies: ["17885C2DE986F1BD"]
 			description: ["The &n&5Gearshift&r will reverse the direction of rotation if a redstone signal is applied."]
 			id: "67A46ED73E488CEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33A15A5A35DF182B"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0CE491535E6FA50B"
 				item: "create:gearshift"
@@ -186,6 +256,12 @@
 			dependencies: ["17885C2DE986F1BD"]
 			description: ["The &n&5Chain Drive&r can be linked with others in any direction as long as they are touching. They will relay the rotation sideways."]
 			id: "7F8E50FA436DB4E6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40DBEB8DF89C628B"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1674E46511507301"
 				item: "create:encased_chain_drive"
@@ -204,6 +280,12 @@
 				"When you apply a redstone signal and it is not the block receiving the rotational force, it will half the speed for the connected Chain Drives."
 			]
 			id: "54EC1C7FC1DA9107"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E52C571C562AB8B"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "115F81D0A661F71F"
 				item: "create:adjustable_chain_gearshift"
@@ -216,6 +298,12 @@
 			dependencies: ["17885C2DE986F1BD"]
 			description: ["The &n&5Press&r can be used to create metal plates or blocks."]
 			id: "2D41B04C75FA02BC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46654D83099D7C7D"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "52136CB29F02E923"
 				item: "create:mechanical_press"
@@ -228,6 +316,12 @@
 			dependencies: ["2D41B04C75FA02BC"]
 			description: ["The &n&5Mixer&r can be used combined with the Basin to craft."]
 			id: "5DC892BA79EB52EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18274009F6A74A78"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "057EDA1FF37AE35E"
 				item: "create:mechanical_mixer"
@@ -240,6 +334,12 @@
 			dependencies: ["0F16498769DFB3B0"]
 			description: ["The &n&5Basin&r is used for recipes, mainly including the &n&5Mechanical Press&r and the &n&5Mechanical Mixer&r."]
 			id: "75CBB5BD8C1DFEA1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3192536D756BA014"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "56DBF4356117F26A"
 				item: "create:basin"
@@ -256,6 +356,12 @@
 				"This is used under a Basin to heat it or super-heat it for different recipes."
 			]
 			id: "1B182A30604655E2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E3ED5DC2213D467"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "50FED4EED98A8648"
 				item: "create:blaze_burner"
@@ -268,6 +374,12 @@
 			dependencies: ["47897D827C50629D"]
 			description: ["The &n&5Mechanical Piston&r is similar to the Piston, it can push blocks, but you can add as many Extension Poles as you wish."]
 			id: "45EC31812FB9934D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E4C6E13ADD8A572"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0BD1BA7949BB5855"
 				item: {
@@ -297,6 +409,12 @@
 			dependencies: ["4F95F00ED78FBAB9"]
 			description: ["The Speedometer will show you the speed of the currently connected gear."]
 			id: "29917E6196649F5D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "220CC56049A32C2A"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6A5BBAA13F1730F2"
 				item: "create:speedometer"
@@ -309,6 +427,12 @@
 			dependencies: ["4F95F00ED78FBAB9"]
 			description: ["The Stressometer will show you how stressed the system is when you connect it."]
 			id: "48BE7DAC5082044D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2551C6FDD46C9F37"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "10CB6FCDDD3E38D4"
 				item: "create:stressometer"
@@ -327,6 +451,12 @@
 				"To \"unmount\" the blocks from the Minecart, simply turn off the redstone signal and let the Minecart ride through."
 			]
 			id: "09936F8FCEA72C5C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "695C620EF903F4E0"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "15BA4109324B4A44"
 				item: "create:cart_assembler"
@@ -339,6 +469,12 @@
 			dependencies: ["0F16498769DFB3B0"]
 			description: ["The &n&5Linear Chassis&r can be used similar to the &n&5Super Glue&r. It will connect blocks in a line without the need for glue."]
 			id: "51EA6B1452883AB2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17632A02735AB295"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4A80AC1DE4002191"
 				item: "create:linear_chassis"
@@ -351,6 +487,12 @@
 			dependencies: ["0F16498769DFB3B0"]
 			description: ["The &n&5Radial Chassis&r can be used similar to the &n&5Super Glue&r. It will connect blocks in a line, on the sides, without the need for glue."]
 			id: "459BA85E48B343AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CD5F41345370121"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3598B8EDD5834F92"
 				item: "create:radial_chassis"
@@ -363,6 +505,12 @@
 			dependencies: ["0F16498769DFB3B0"]
 			description: ["Combine with &n&5Radial Chassis&r to create a very powerful windmill that has high stress capacity."]
 			id: "76CBFA38D021AC95"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42FA1DCA4A3893C5"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3652E21F6AD6D33F"
 				item: "create:white_sail"
@@ -375,6 +523,12 @@
 			dependencies: ["17885C2DE986F1BD"]
 			description: ["The &n&5Drill&r will break any block in front of it. If it has a connected inventory, the items will be stored in it."]
 			id: "3029E1E133B91ED8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CB65FEBC3DD3EB8"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "072131C19C185896"
 				item: "create:mechanical_drill"
@@ -387,6 +541,12 @@
 			dependencies: ["17885C2DE986F1BD"]
 			description: ["The &n&5Saw&r will harvest trees in front of it. It can also be used as a Sawmill. If it has a connected inventory, the items will be stored in it."]
 			id: "72DCE154E1714890"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "320FA912ACC35B4D"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "36C1D75275CE2AAB"
 				item: "create:mechanical_saw"
@@ -399,6 +559,12 @@
 			dependencies: ["17885C2DE986F1BD"]
 			description: ["The &n&5Deployer&r can be used to either place items/blocks or to use items like Swords."]
 			id: "3314FBC4FEAE1D08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B881419A300F07A"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "79D2F12337D1F637"
 				item: "create:deployer"
@@ -415,6 +581,12 @@
 				"When the two interfaces are facing each other, they will link and transfer items between each other."
 			]
 			id: "134BC365E77C6DB8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B93CCC01ABA7421"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2D54A1DB29903A0A"
 				item: "create:portable_storage_interface"
@@ -427,6 +599,12 @@
 			dependencies: ["17885C2DE986F1BD"]
 			description: ["The &n&5Harvester&r will harvest any crops it goes over. If it has a connected inventory, the items will be stored in it."]
 			id: "4C31649D721F76B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AC9090A44090DA9"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1357FF84B9B133C4"
 				item: "create:mechanical_harvester"
@@ -439,6 +617,12 @@
 			dependencies: ["17885C2DE986F1BD"]
 			description: ["The &n&5Plough&r will destroy any non-solid block, turn dirt into farmland and launch entities without doing damage. If it has a connected inventory, the items will be stored in it."]
 			id: "0759CA52EECF3B49"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B511FF7FF8455EF"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7B9B459AAB9F6483"
 				item: "create:mechanical_plough"
@@ -451,6 +635,12 @@
 			dependencies: ["57A7A5C79389A96A"]
 			description: ["&n&5Casings&r are used as a crafting ingredient for most blocks."]
 			id: "17885C2DE986F1BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19C2DC84AA09D560"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0341E5F9B7361D1F"
 				item: "create:andesite_casing"
@@ -463,6 +653,12 @@
 			dependencies: ["1DA6B8B2DCC97809"]
 			description: ["&n&5Casings&r are used as a crafting ingredient for most blocks."]
 			id: "48EA6D9923E38B71"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7737458717701152"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "23E40F6D58658887"
 				item: "create:brass_casing"
@@ -475,6 +671,12 @@
 			dependencies: ["2D41B04C75FA02BC"]
 			description: ["&n&5Casings&r are used as a crafting ingredient for most blocks."]
 			id: "3F663416E824720C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "223A21969D0A5F79"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7FE62F264B4FA5DE"
 				item: "create:copper_casing"
@@ -493,6 +695,12 @@
 				"To deselect a block, L-Click it with the Arm in your hand."
 			]
 			id: "3F2C1A81C17D2D67"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "465CD84FB31590DB"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3EC06DE78E520CC9"
 				item: "create:mechanical_arm"
@@ -505,6 +713,12 @@
 			dependencies: ["0F16498769DFB3B0"]
 			description: ["The &n&5Funnel&r can import or export items from connected inventories."]
 			id: "47A6769B6BF1A46D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5703C77670894ACB"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5CB1191F8F7BBAA4"
 				item: "create:andesite_funnel"
@@ -517,6 +731,12 @@
 			dependencies: ["1DA6B8B2DCC97809"]
 			description: ["The &n&5Funnel&r can import or export items from connected inventories."]
 			id: "495B0CC178B4CFA9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33F4830B5F29AB8A"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1C5B4D14826937BB"
 				item: "create:brass_funnel"
@@ -529,6 +749,12 @@
 			dependencies: ["0F16498769DFB3B0"]
 			description: ["The &n&5Tunnels&r can be placed on belts and they will filter items that pass through them. You can link multiple tunnels by placing them next to each other."]
 			id: "7C8CDD259495A31A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51C6012F23757A9C"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "07162DA2FD7B0E05"
 				item: "create:andesite_tunnel"
@@ -541,6 +767,12 @@
 			dependencies: ["1DA6B8B2DCC97809"]
 			description: ["The &n&5Tunnels&r can be placed on belts and they will filter items that pass through them. You can link multiple tunnels by placing them next to each other."]
 			id: "78656C89EEE80DB5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E3DF423DAA096AA"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "688E14A6938EBEF7"
 				item: "create:brass_tunnel"
@@ -553,6 +785,12 @@
 			dependencies: ["17885C2DE986F1BD"]
 			description: ["The &n&5Depot&r is used to store items, mainly for the Spout."]
 			id: "7F0D59EC1573FDC0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "132FC5098EAAA991"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7EFB9500BBDD745C"
 				item: "create:depot"
@@ -565,6 +803,12 @@
 			dependencies: ["2D41B04C75FA02BC"]
 			description: ["The &n&5Chute&r is used to insert/extract from inventories, or to place/take items from a belt."]
 			id: "3D2A03EB2B91E9C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47F98AF499B159E8"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "105F8859D59964C4"
 				item: "create:chute"
@@ -581,6 +825,12 @@
 				"It will show things as rotation speed and stress."
 			]
 			id: "4F95F00ED78FBAB9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FC320C4AE9D721F"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6989058FD488CE64"
 				item: "create:goggles"
@@ -597,17 +847,25 @@
 				"You can either hold the crystals in your off-hand, or throw them on the ground and then R-Click while holding Sand Paper."
 			]
 			id: "610DEC4FC4FBB63E"
-			rewards: [{
-				id: "43C2760F8FDD84CA"
-				item: {
-					Count: 1b
-					id: "create:sand_paper"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "43C2760F8FDD84CA"
+					item: {
+						Count: 1b
+						id: "create:sand_paper"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "01025AA189CFE4A4"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
 			tasks: [{
 				count: 8L
 				id: "3BC40DF423178031"
@@ -621,6 +879,12 @@
 			dependencies: ["1C2309DB4B890E71"]
 			description: ["The &n&5Blaze Cake&r is used to Super-Heat the Blaze Burner for crafting the Chromatic Compound."]
 			id: "4C77ABCD41383F32"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E2A4570379028BC"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2E9A4E9BFFC10819"
 				item: "create:blaze_cake"
@@ -637,6 +901,12 @@
 				"The arrows on the Crafters must eventually converge on the same Crafter to finish the recipe. You can turn the arrows by R-Clicking it with the Wrench."
 			]
 			id: "4194397DFD0199C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "238E17C6EFBBB628"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "65C6E83AF17405E0"
 				item: "create:mechanical_crafter"
@@ -649,6 +919,12 @@
 			dependencies: ["17885C2DE986F1BD"]
 			description: ["The &n&5Gantry Carriage&r can be attached to Gantry Shafts and if the Shaft is rotating, it will move the Carriage along it."]
 			id: "75B14A09FE39EDDA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6472433E856E4B15"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7DA78C3A582368E2"
 				item: "create:gantry_carriage"
@@ -661,6 +937,12 @@
 			dependencies: ["7F0D59EC1573FDC0"]
 			description: ["The &n&5Weighted Ejector&r can launch items or entities to a selected location."]
 			id: "4EA4EDD5A7923F98"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75788A0A9E6595B9"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "34313AA5D327317C"
 				item: "create:weighted_ejector"
@@ -673,6 +955,12 @@
 			dependencies: ["3D2A03EB2B91E9C1"]
 			description: ["The &n&5Smart Chute&r is the same as the Chute but with additional functionalities, such as stack size and filters."]
 			id: "7EEEEDD5FF31ACD3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D5531B8796B19B6"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "37EE09651ED58F6F"
 				item: "create:smart_chute"
@@ -689,11 +977,19 @@
 				"You can use it to copy buildings or to share them with others!"
 			]
 			id: "0CF69DBA9573A7B3"
-			rewards: [{
-				id: "35DCC6CB7C472F17"
-				item: "create:schematic_and_quill"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "35DCC6CB7C472F17"
+					item: "create:schematic_and_quill"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "549ED75C84C282F2"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "0FB1E9BD14FE8EF8"
 				item: "create:schematic_table"
@@ -706,6 +1002,12 @@
 			dependencies: ["0CF69DBA9573A7B3"]
 			description: ["The Cannon will build the structures from Schematics, taking materials from nearby chests and using gunpowder as fuel."]
 			id: "7D67058592EE5958"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D14E099C51AE133"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5D989C876E9B8AA5"
 				item: "create:schematicannon"
@@ -718,6 +1020,12 @@
 			dependencies: ["17885C2DE986F1BD"]
 			description: ["The &n&5Rope Pulley&r can move blocks up or down, they can be glued together."]
 			id: "24E658BA47367A44"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A2EBC0AFD95801F"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0674C07C7DE332A9"
 				item: "create:rope_pulley"
@@ -730,6 +1038,12 @@
 			dependencies: ["3F663416E824720C"]
 			description: ["The &n&5Spout&r is used to fill items with liquid. It is best to use a Depot under it to hold the items."]
 			id: "1C2309DB4B890E71"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39175F7AFBEC18D0"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6772D04457414991"
 				item: "create:spout"
@@ -742,6 +1056,12 @@
 			dependencies: ["3F663416E824720C"]
 			description: ["The &n&5Hose Pulley&r is a pump that can extract liquids or place liquids in the world."]
 			id: "77382D4114E901CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "475EFD52CA4534D1"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "739701B00C0F8A7B"
 				item: "create:hose_pulley"
@@ -753,6 +1073,12 @@
 		{
 			dependencies: ["17885C2DE986F1BD"]
 			id: "47897D827C50629D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38B089CEB25CE17C"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "473DA14538E1B94C"
 				item: "create:piston_extension_pole"
@@ -769,6 +1095,12 @@
 				"When the two interfaces are facing each other, they will link and transfer liquids between each other."
 			]
 			id: "71B1B53A03A16296"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4687BDB12344C300"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "339D26EDFBB54047"
 				item: "create:portable_fluid_interface"
@@ -780,6 +1112,12 @@
 		{
 			dependencies: ["5DC892BA79EB52EC"]
 			id: "1DA6B8B2DCC97809"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "403AD817563BBAE9"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				icon: "create:brass_ingot"
 				id: "07896B715ED0E04F"
@@ -801,6 +1139,12 @@
 			dependencies: ["2D41B04C75FA02BC"]
 			description: ["&n&5Super Glue&r can be used to attach blocks to each other to move them with pistons or other means."]
 			id: "1F58AA51814C7568"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10E9F324D47BC527"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1A9BC10CDDA9FCF2"
 				item: {
@@ -823,6 +1167,12 @@
 				"The &n&5Shafts&r must be at either 45, 90 or 180 degrees from each other."
 			]
 			id: "13AEBC331F29BC3D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "010FDF0F577731DF"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				count: 4L
 				id: "4D2A907287515990"
