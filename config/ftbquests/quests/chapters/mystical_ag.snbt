@@ -6,7 +6,7 @@
 	group: "42CCF22FB20491A1"
 	icon: "mysticalagriculture:inferium_essence"
 	id: "5C764279146E5E66"
-	order_index: 10
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{
@@ -3520,11 +3520,6 @@
 					exclude_from_claim_all: true
 					id: "498E07346770D4CB"
 					type: "random"
-				}
-				{
-					id: "0A337E0C343C74BD"
-					item: "mysticalagradditions:insanium_essence"
-					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
