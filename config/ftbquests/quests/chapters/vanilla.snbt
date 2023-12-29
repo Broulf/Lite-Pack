@@ -32,7 +32,15 @@
 			]
 			tasks: [{
 				id: "2FD6D770FD04E86F"
-				item: "minecraft:oak_log"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				match_nbt: true
+				title: "Any #minecraft:logs"
 				type: "item"
 			}]
 			title: "Getting Wood"
@@ -63,7 +71,7 @@
 				}
 			]
 			tasks: [{
-				id: "5F43344CBFE84721"
+				id: "3A9117962C633D35"
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
@@ -901,7 +909,14 @@
 			}]
 			tasks: [{
 				id: "79D901E4CA2BB4C9"
-				item: "minecraft:white_bed"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				title: "Any #minecraft:beds"
 				type: "item"
 			}]
 			x: 6.0d
@@ -1125,7 +1140,14 @@
 			}]
 			tasks: [{
 				id: "24650FDF6300AC71"
-				item: "minecraft:chest"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests"
+					}
+				}
+				title: "Any #forge:chests"
 				type: "item"
 			}]
 			title: "Introduction to Storage Mediums"

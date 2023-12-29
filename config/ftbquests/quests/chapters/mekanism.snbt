@@ -1981,7 +1981,14 @@
 			subtitle: "The Base Crafting Ingot"
 			tasks: [{
 				id: "52967F83338A3AC3"
-				item: "mekanism:ingot_osmium"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/osmium"
+					}
+				}
+				title: "Any #forge:ingots/osmium"
 				type: "item"
 			}]
 			title: "Osmium"
